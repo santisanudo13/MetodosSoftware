@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-To1OYN41m6LgnwzF6u5j1g" name="new_role,_xFvQwOo0EeeDIbFNrMXtig" guid="-To1OYN41m6LgnwzF6u5j1g" changeDate="2017-12-26T13:15:38.072+0100">
+  <mainDescription>Sm extend and replace main description.</mainDescription>
+</org.eclipse.epf.uma:RoleDescription>

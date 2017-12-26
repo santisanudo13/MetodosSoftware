@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<introContent>
+  <!-- Extension to the SDK Tutorials Page. -->
+  <extensionContent id="org.eclipse.team" name="צוות/CVS" alt-style="css/tutorials.properties" style="css/tutorials.css" path="tutorials/@">
+    <group label="צוות/CVS" id="team" style-id="content-group">
+      <link url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=org.eclipse.platform.cvs.checkout" label="משיכת פרויקט CVS" id="cvs_checkout" style-id="content-link">
+        <text>הנחיות להתחברות אל מאגר CVS ומשיכת פרויקט מהמאגר.</text>
+      </link>
+      <link url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=org.eclipse.platform.cvs.merge" label="מיזוג ענפי CVS" id="cvs_merge" style-id="content-link">
+        <text>הנחיות למיזוג שינויים מענף CVS אחד לאחר.</text>
+      </link>
+    </group>
+  </extensionContent>
+</introContent>

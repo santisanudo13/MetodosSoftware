@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-eW30-O9_1NzcGjDWsVYZkQ" name=",_XvEY4OozEeeDIbFNrMXtig" guid="-eW30-O9_1NzcGjDWsVYZkQ">
+  <sections xmi:id="_h8J38OozEeeDIbFNrMXtig" name="Extends 1" guid="_h8J38OozEeeDIbFNrMXtig"/>
+  <sections xmi:id="_ih6QYOozEeeDIbFNrMXtig" name="Extends 2" guid="_ih6QYOozEeeDIbFNrMXtig"/>
+</org.eclipse.epf.uma:TaskDescription>

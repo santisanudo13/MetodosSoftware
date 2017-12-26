@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<introContent>
+  	<extensionContent id="org.eclipse.ui.workbench" name="משטח עבודה" alt-style="css/overview.properties" style="css/overview.css" path="overview/@">
+  		<group style-id="content-group" id="content-group">
+			<link style-id="content-link" label="מושגים בסיסיים במרחב העבודה" url="http://org.eclipse.ui.intro/showHelpTopic?id=/org.eclipse.platform.doc.user/gettingStarted/intro/overview.htm" id="basics">
+          		<text>למדו את המושגים הבסיסיים של משטח העבודה של Eclipse</text>
+       		</link>
+       		<link style-id="content-link" label="תמיכת צוות" url="http://org.eclipse.ui.intro/showHelpTopic?id=/org.eclipse.platform.doc.user/concepts/concepts-26.htm" id="team">
+          		<text>גלו איך לשתף פעולה עם מפתחים אחרים</text>
+       		</link>
+       	</group>
+  	</extensionContent>
+</introContent>

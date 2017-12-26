@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-Name: %nlFragmentName
+Bundle-SymbolicName: org.eclipse.pde.build.nl2 ;singleton=true
+Bundle-Version: 3.3.1.v200709272138
+Bundle-ClassPath: nl2.jar
+Bundle-Vendor: %nlProviderName
+Fragment-Host: org.eclipse.pde.build;bundle-version="[3.3.0,3.4.0)"
+Bundle-Localization: nl_fragment

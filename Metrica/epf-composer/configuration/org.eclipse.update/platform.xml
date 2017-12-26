@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1514283457118" transient="false" version="3.0">
+<site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
+<feature id="org.eclipse.epf.rcp.feature" plugin-identifier="org.eclipse.epf.rcp" url="features/org.eclipse.epf.rcp.feature_1.5.0.201611202248-379-7735F557377BJ/" version="1.5.0.201611202248-379-7735F557377BJ">
+</feature>
+<feature id="org.eclipse.epf.platform.feature.nlsBidi" plugin-identifier="org.eclipse.epf.platform" url="features/org.eclipse.epf.platform.feature.nlsBidi_1.2.0.200910121800/" version="1.2.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.platform.feature.nls1" plugin-identifier="org.eclipse.epf.platform" url="features/org.eclipse.epf.platform.feature.nls1_1.2.0.200910121800/" version="1.2.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.doc.feature.nls1" plugin-identifier="org.eclipse.epf.doc" url="features/org.eclipse.epf.doc.feature.nls1_1.2.0.200910121800/" version="1.2.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.richtext.feature.nlsBidi" plugin-identifier="org.eclipse.epf.richtext" url="features/org.eclipse.epf.richtext.feature.nlsBidi_1.5.0.200910121800/" version="1.5.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.doc.feature.nls2" plugin-identifier="org.eclipse.epf.doc" url="features/org.eclipse.epf.doc.feature.nls2_1.2.0.200910121800/" version="1.2.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.doc.feature.nls2a" plugin-identifier="org.eclipse.epf.doc" url="features/org.eclipse.epf.doc.feature.nls2a_1.2.0.200910121800/" version="1.2.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.rcp.feature.nls2a" plugin-identifier="org.eclipse.epf.rcp" url="features/org.eclipse.epf.rcp.feature.nls2a_1.5.0.200910121800/" version="1.5.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.platform.feature.nls2" plugin-identifier="org.eclipse.epf.platform" url="features/org.eclipse.epf.platform.feature.nls2_1.2.0.200910121800/" version="1.2.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.base.feature.nls2" plugin-identifier="org.eclipse.epf.base" url="features/org.eclipse.epf.base.feature.nls2_1.5.0.200910121800/" version="1.5.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.base.feature.nls1" plugin-identifier="org.eclipse.epf.base" url="features/org.eclipse.epf.base.feature.nls1_1.5.0.200910121800/" version="1.5.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.common.html.feature" plugin-identifier="org.eclipse.epf.common.html" url="features/org.eclipse.epf.common.html.feature_1.5.0.201611202248-24-312722313359/" version="1.5.0.201611202248-24-312722313359">
+</feature>
+<feature id="org.eclipse.epf.richtext.feature.nls2a" plugin-identifier="org.eclipse.epf.richtext" url="features/org.eclipse.epf.richtext.feature.nls2a_1.5.0.200910121800/" version="1.5.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.platform.feature" plugin-identifier="org.eclipse.epf.platform" url="features/org.eclipse.epf.platform.feature_1.2.0.201611202248-DFFAUH7CH_IYlUOBc3WjWPSVJgtw/" version="1.2.0.201611202248-DFFAUH7CH_IYlUOBc3WjWPSVJgtw">
+</feature>
+<feature id="org.eclipse.epf.doc.feature" plugin-identifier="org.eclipse.epf.doc" url="features/org.eclipse.epf.doc.feature_1.2.0.201611202248-379-7735F557377BJ/" version="1.2.0.201611202248-379-7735F557377BJ">
+</feature>
+<feature id="org.eclipse.epf.base.feature.nlsBidi" plugin-identifier="org.eclipse.epf.base" url="features/org.eclipse.epf.base.feature.nlsBidi_1.5.0.200910121800/" version="1.5.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.richtext.feature.nls2" plugin-identifier="org.eclipse.epf.richtext" url="features/org.eclipse.epf.richtext.feature.nls2_1.5.0.200910121800/" version="1.5.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.richtext.feature.nls1" plugin-identifier="org.eclipse.epf.richtext" url="features/org.eclipse.epf.richtext.feature.nls1_1.5.0.200910121800/" version="1.5.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.rcp.feature.nls2" plugin-identifier="org.eclipse.epf.rcp" url="features/org.eclipse.epf.rcp.feature.nls2_1.5.0.200910121800/" version="1.5.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.base.feature" plugin-identifier="org.eclipse.epf.base" url="features/org.eclipse.epf.base.feature_1.5.0.201611202248-7e9z-9WFvxstUGVWn9/" version="1.5.0.201611202248-7e9z-9WFvxstUGVWn9">
+</feature>
+<feature id="org.eclipse.epf.base.feature.nls2a" plugin-identifier="org.eclipse.epf.base" url="features/org.eclipse.epf.base.feature.nls2a_1.5.0.200910121800/" version="1.5.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.richtext.feature" plugin-identifier="org.eclipse.epf.richtext" url="features/org.eclipse.epf.richtext.feature_1.6.0.201611202248-47F-7B58N88B5BBHT/" version="1.6.0.201611202248-47F-7B58N88B5BBHT">
+</feature>
+<feature id="org.eclipse.epf.rcp.feature.nlsBidi" plugin-identifier="org.eclipse.epf.rcp" url="features/org.eclipse.epf.rcp.feature.nlsBidi_1.5.0.200910121800/" version="1.5.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.platform.feature.nls2a" plugin-identifier="org.eclipse.epf.platform" url="features/org.eclipse.epf.platform.feature.nls2a_1.2.0.200910121800/" version="1.2.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.doc.feature.nlsBidi" plugin-identifier="org.eclipse.epf.doc" url="features/org.eclipse.epf.doc.feature.nlsBidi_1.5.0.200910121800/" version="1.5.0.200910121800">
+</feature>
+<feature id="org.eclipse.epf.rcp.feature.nls1" plugin-identifier="org.eclipse.epf.rcp" url="features/org.eclipse.epf.rcp.feature.nls1_1.5.0.200910121800/" version="1.5.0.200910121800">
+</feature>
+</site>
+</config>

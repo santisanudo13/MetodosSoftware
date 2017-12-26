@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-BJRie1Nk4AhGbTfOLmh6IQ" name="new_artifact,_aNPy4OowEeeDIbFNrMXtig" guid="-BJRie1Nk4AhGbTfOLmh6IQ" changeDate="2017-12-26T12:32:49.072+0100">
+  <mainDescription>Contributing Main Description</mainDescription>
+  <purpose>Contributing Purpose</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

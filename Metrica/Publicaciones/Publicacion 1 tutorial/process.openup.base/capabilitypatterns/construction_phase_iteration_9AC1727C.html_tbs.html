@@ -1,0 +1,1281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Patr&oacute;n de posibilidad: Construction Phase Iteration</title>
+<meta name="uma.type" content="CapabilityPattern">
+<meta name="uma.name" content="construction_phase_iteration">
+<meta name="uma.presentationName" content="Construction Phase Iteration">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ActivityTreeTable.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ProcessElementPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/processElementData.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var defaultQueryStr = '?proc=_RQi0AdONEdyqlogshP8l4g&path=_RQi0AdONEdyqlogshP8l4g';
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  defaultQueryStr, false, true, true);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div autoWrap="true">
+<div id="page-guid" value="_RQi0AdONEdyqlogshP8l4g"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Patr&oacute;n de posibilidad: Construction Phase Iteration</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/capabilitypattern.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This iteration template defines the activities (and associated roles and work products) performed in a typical iteration in the Construction phase.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="middle">
+<td class="tab"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_Description" href="./../../process.openup.base/capabilitypatterns/construction_phase_iteration_9AC1727C.html_desc.html">Descripci&oacute;n</a></td><td width="21"><img src="./../../images/tab_middle-i_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_WBS" href="./../../process.openup.base/capabilitypatterns/construction_phase_iteration_9AC1727C.html_wbs.html"><span style="white-space:nowrap;">Estructura de desglose de trabajo</span></a></td><td width="1"><img src="./../../images/tab_middle-i_a.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="activeTab"><span style="white-space:nowrap;">Asignaci&oacute;n de equipos</span></td><td width="21"><img src="./../../images/tab_middle-a_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_WPBS" href="./../../process.openup.base/capabilitypatterns/construction_phase_iteration_9AC1727C.html_wpbs.html"><span style="white-space:nowrap;">Utilizaci&oacute;n del producto de trabajo</span></a></td><td width="21"><img src="./../../images/tab_end-i.gif" width="21" height="17" alt="" title=""></td><td width="50%"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="4"><img src="./../../images/shim.gif" alt="" title="" height="2"></td><td><img src="./../../images/tab_space_middle.gif" width="21" height="2" alt="" title=""></td><td class="activeTab"><img src="./../../images/shim.gif" width="10" height="2" alt="" title=""></td><td><img src="./../../images/tab_space.gif" width="21" height="2" alt="" title=""></td><td colspan="3"><img src="./../../images/shim.gif" height="2" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="10" class="activeTab"><img src="./../../images/shim.gif" height="5" alt="" title=""></td>
+</tr>
+</table>
+<div class="sectionHeading">Anomal&iacute;a del equipo</div>
+<div class="sectionContent">
+<div id="treeContent"></div>
+<script language="JavaScript">
+contentPage.processPage.treeTable.data = {
+title: "Anomalía del equipo", summary: "Anomalía del equipo", 
+columns: [
+["presentation_name", "Elemento de desglose"],
+["model_info", "Información del modelo"],
+["teams", "Equipo"],
+["type", "Tipo"],
+["is_planned", "Planeado"],
+["has_multiple_occurrences", "Varias apariciones"],
+["is_optional", "Opcional"]],
+rows: [
+
+{id: "cb0bd778", parentId: "", relPath: ",_0Qiv4NOJEdyqlogshP8l4g_0VxJsMlgEdmt3adZL5Dmdw", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "analyst", title: "Analyst", url: "./../../process.openup.base/capabilitypatterns/analyst_2EAAA344.html", 
+	predecessors: "", info: "", type: "Descriptor de roles", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "26232a12", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "glossary", title: "Glossary", url: "./../../process.openup.base/capabilitypatterns/glossary_557CE4BD.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "8197ff88", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "system_wide_requirements", title: "System-Wide Requirements", url: "./../../process.openup.base/capabilitypatterns/system_wide_requirements_75EAB1C1.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "ccacb1d4", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "use_case", title: "Use Case", url: "./../../process.openup.base/capabilitypatterns/use_case_1B0B4427.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "c4e912e0", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "use_case_model", title: "Use-Case Model", url: "./../../process.openup.base/capabilitypatterns/use_case_model_7DE33A60.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "24bc7d71", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "vision", title: "Vision", url: "./../../process.openup.base/capabilitypatterns/vision_26BE8D81.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "2227effd", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "glossary", title: "Glossary", url: "./../../process.openup.base/capabilitypatterns/glossary_DB92819F.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7ada6eaf", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "system_wide_requirements", title: "System-Wide Requirements", url: "./../../process.openup.base/capabilitypatterns/system_wide_requirements_FC004EA3.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7848dccb", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "use_case", title: "Use Case", url: "./../../process.openup.base/capabilitypatterns/use_case_A120E109.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d7360420", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "use_case_model", title: "Use-Case Model", url: "./../../process.openup.base/capabilitypatterns/use_case_model_9ADBAFD7.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "79e31453", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "work_items_list", title: "Work Items List", url: "./../../process.openup.base/capabilitypatterns/work_items_list_37DC9DE6.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "ca1c5f02", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "detail_system_wide_requirements", title: "Detail System-Wide Requirements", url: "./../../process.openup.base/capabilitypatterns/detail_system_wide_requirements_B4381DEE.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "1fb23a0e", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "detail_use_case_scenarios", title: "Detail Use-Case Scenarios", url: "./../../process.openup.base/capabilitypatterns/detail_use_case_scenarios_79A10C4.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "77582dc6", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "identify_and_outline_requirements", title: "Identify and Outline Requirements", url: "./../../process.openup.base/capabilitypatterns/identify_and_outline_requirements_FF8708A2.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "764e7e74", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "assess_results", title: "Assess Results", url: "./../../process.openup.base/capabilitypatterns/assess_results_A8262B77.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "cba22b33", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "create_test_cases", title: "Create Test Cases", url: "./../../process.openup.base/capabilitypatterns/create_test_cases_3D5E914E.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "c6b598c7", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "design_solution", title: "Design the Solution", url: "./../../process.openup.base/capabilitypatterns/design_solution_7C602F6D.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d705625d", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "implement_tests", title: "Implement Tests", url: "./../../process.openup.base/capabilitypatterns/implement_tests_ECF4B2BA.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "204c8fba", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "manage_iteration", title: "Manage Iteration", url: "./../../process.openup.base/capabilitypatterns/manage_iteration_D96F88D6.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "dc298656", parentId: "cb0bd778", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_iteration", title: "Plan Iteration", url: "./../../process.openup.base/capabilitypatterns/plan_iteration_B0421040.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d53b9a50", parentId: "", relPath: ",_HGqkMNnTEdyNj6EOmqy5Rg_0dsWoMlgEdmt3adZL5Dmdw", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "any_role", title: "Any Role", url: "./../../process.openup.base/capabilitypatterns/any_role_48D97661.html", 
+	predecessors: "", info: "", type: "Descriptor de roles", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7fcdaf52", parentId: "d53b9a50", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "work_items_list", title: "Work Items List", url: "./../../process.openup.base/capabilitypatterns/work_items_list_A8A07014.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "22127275", parentId: "d53b9a50", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "request_change", title: "Request Change", url: "./../../process.openup.base/capabilitypatterns/request_change_BA075BFE.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d562b613", parentId: "", relPath: ",_0Qiv4NOJEdyqlogshP8l4g_0X9iEMlgEdmt3adZL5Dmdw", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "architect", title: "Architect", url: "./../../process.openup.base/capabilitypatterns/architect_DC7401B2.html", 
+	predecessors: "", info: "", type: "Descriptor de roles", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d9a86bac", parentId: "d562b613", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "architecture_notebook", title: "Architecture Notebook", url: "./../../process.openup.base/capabilitypatterns/architecture_notebook_37695A41.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "c788f0eb", parentId: "d562b613", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "assess_results", title: "Assess Results", url: "./../../process.openup.base/capabilitypatterns/assess_results_A8262B77.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "cbbda09b", parentId: "d562b613", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "design_solution", title: "Design the Solution", url: "./../../process.openup.base/capabilitypatterns/design_solution_7C602F6D.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "c4bde64d", parentId: "d562b613", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "detail_system_wide_requirements", title: "Detail System-Wide Requirements", url: "./../../process.openup.base/capabilitypatterns/detail_system_wide_requirements_B4381DEE.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "798f6340", parentId: "d562b613", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "detail_use_case_scenarios", title: "Detail Use-Case Scenarios", url: "./../../process.openup.base/capabilitypatterns/detail_use_case_scenarios_79A10C4.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7fa96ddf", parentId: "d562b613", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "identify_and_outline_requirements", title: "Identify and Outline Requirements", url: "./../../process.openup.base/capabilitypatterns/identify_and_outline_requirements_FF8708A2.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7fd4bd93", parentId: "d562b613", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "manage_iteration", title: "Manage Iteration", url: "./../../process.openup.base/capabilitypatterns/manage_iteration_D96F88D6.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "28f28956", parentId: "d562b613", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_iteration", title: "Plan Iteration", url: "./../../process.openup.base/capabilitypatterns/plan_iteration_B0421040.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7bc1149d", parentId: "", relPath: ",_ofI9sJlWEeGlkdGl1HQlDA_cQjSAPWkEeC0T_-ipt2c0Q", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "course_developer", title: "Course Developer", url: "./../../process.openup.base/capabilitypatterns/course_developer_116DED09.html", 
+	predecessors: "", info: "", type: "Descriptor de roles", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d0d17ca1", parentId: "7bc1149d", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "training_materials", title: "Training Materials", url: "./../../process.openup.base/capabilitypatterns/training_materials_340B32D6.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d0ee5939", parentId: "7bc1149d", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "training_materials", title: "Training Materials", url: "./../../process.openup.base/capabilitypatterns/training_materials_340B32D6.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d209d15f", parentId: "7bc1149d", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "develop_training_materials", title: "Develop Training Materials", url: "./../../process.openup.base/capabilitypatterns/develop_training_materials_761EBEBA.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d613c876", parentId: "", relPath: ",_QMjqseooEeeDIbFNrMXtig", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "deployment_engineer", title: "Deployment Engineer", url: "./../../process.openup.base/capabilitypatterns/deployment_engineer_C0FB1C49.html", 
+	predecessors: "", info: "", type: "Descriptor de roles", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "c81a37d8", parentId: "d613c876", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "backout_plan", title: "Backout Plan", url: "./../../process.openup.base/capabilitypatterns/backout_plan_9089AEC9.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "ce7b0ce1", parentId: "d613c876", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "deployment_plan", title: "Deployment Plan", url: "./../../process.openup.base/capabilitypatterns/deployment_plan_D0432255.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "83130ace", parentId: "d613c876", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "release", title: "Release", url: "./../../process.openup.base/capabilitypatterns/release_9B214B23.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de producto final", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "c80e2479", parentId: "d613c876", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "release_communications", title: "Release Communications", url: "./../../process.openup.base/capabilitypatterns/release_communications_D2994A2C.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "c6659d21", parentId: "d613c876", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "deployment_plan", title: "Deployment Plan", url: "./../../process.openup.base/capabilitypatterns/deployment_plan_D0432255.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "74ed6a8e", parentId: "d613c876", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_deployment", title: "Plan Deployment", url: "./../../process.openup.base/capabilitypatterns/plan_deployment_1136026.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "8004b59e", parentId: "", relPath: ",_oaBE0JigEeGlkdGl1HQlDA_0YDosMlgEdmt3adZL5Dmdw", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "developer", title: "Developer", url: "./../../process.openup.base/capabilitypatterns/developer_74294F9.html", 
+	predecessors: "", info: "", type: "Descriptor de roles", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "79b039a6", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "build", title: "Build", url: "./../../process.openup.base/capabilitypatterns/build_574020A6.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d8cd73e4", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "design", title: "Design", url: "./../../process.openup.base/capabilitypatterns/design_97E0192B.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "ceb3e2eb", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "developer_test", title: "Developer Test", url: "./../../process.openup.base/capabilitypatterns/developer_test_2BFA15AE.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d55c0e86", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "implementation", title: "Implementation", url: "./../../process.openup.base/capabilitypatterns/implementation_716743EF.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d2cf5c56", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "build", title: "Build", url: "./../../process.openup.base/capabilitypatterns/build_FF8B913.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d737c68a", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "design", title: "Design", url: "./../../process.openup.base/capabilitypatterns/design_5098B198.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d1fac411", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "developer_test", title: "Developer Test", url: "./../../process.openup.base/capabilitypatterns/developer_test_E4B2AE1B.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7b583b96", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "implementation", title: "Implementation", url: "./../../process.openup.base/capabilitypatterns/implementation_2A1FDC5C.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "8007afcd", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "test_log", title: "Test Log", url: "./../../process.openup.base/capabilitypatterns/test_log_763F11.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "74e1af54", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "design_solution", title: "Design the Solution", url: "./../../process.openup.base/capabilitypatterns/design_solution_7C602F6D.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7752bf97", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "implement_developer_tests", title: "Implement Developer Tests", url: "./../../process.openup.base/capabilitypatterns/implement_developer_tests_6442995D.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d5652124", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "implement_solution", title: "Implement Solution", url: "./../../process.openup.base/capabilitypatterns/implement_solution_B7C117A5.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "cbc9a9a5", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "integrate_and_create_build", title: "Integrate and Create Build", url: "./../../process.openup.base/capabilitypatterns/integrate_and_create_build_CFB94658.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "834b6fc7", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "run_developer_tests", title: "Run Developer Tests", url: "./../../process.openup.base/capabilitypatterns/run_developer_tests_91CCE06A.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7c51376d", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "assess_results", title: "Assess Results", url: "./../../process.openup.base/capabilitypatterns/assess_results_A8262B77.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7721a348", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "create_test_cases", title: "Create Test Cases", url: "./../../process.openup.base/capabilitypatterns/create_test_cases_3D5E914E.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "799a5b1f", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "detail_system_wide_requirements", title: "Detail System-Wide Requirements", url: "./../../process.openup.base/capabilitypatterns/detail_system_wide_requirements_B4381DEE.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "79d424f9", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "detail_use_case_scenarios", title: "Detail Use-Case Scenarios", url: "./../../process.openup.base/capabilitypatterns/detail_use_case_scenarios_79A10C4.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "22e669a0", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "develop_product_documentation", title: "Develop Product Documentation", url: "./../../process.openup.base/capabilitypatterns/develop_product_documentation_DA7CBA88.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7c6a3b3c", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "identify_and_outline_requirements", title: "Identify and Outline Requirements", url: "./../../process.openup.base/capabilitypatterns/identify_and_outline_requirements_FF8708A2.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d56fa1cb", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "implement_tests", title: "Implement Tests", url: "./../../process.openup.base/capabilitypatterns/implement_tests_ECF4B2BA.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "c682d063", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "manage_iteration", title: "Manage Iteration", url: "./../../process.openup.base/capabilitypatterns/manage_iteration_D96F88D6.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7ecf90a7", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_deployment", title: "Outline Deployment Plan", url: "./../../process.openup.base/capabilitypatterns/plan_deployment_C8487FE.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "c4e21318", parentId: "8004b59e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_iteration", title: "Plan Iteration", url: "./../../process.openup.base/capabilitypatterns/plan_iteration_B0421040.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "765ccaa9", parentId: "", relPath: ",_3MJwMJoQEeGnJt_Qpwdfdg_jmrVYL9xEd-AG_DXKKgAXg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "process_engineer", title: "Process Engineer", url: "./../../process.openup.base/capabilitypatterns/process_engineer_4FDB516C.html", 
+	predecessors: "", info: "", type: "Descriptor de roles", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "c6901cee", parentId: "765ccaa9", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "project_defined_process", title: "Project Defined Process", url: "./../../process.openup.base/capabilitypatterns/project_defined_process_9D8F9D7F.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "1f74fbe3", parentId: "765ccaa9", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "project_defined_process", title: "Project Defined Process", url: "./../../process.openup.base/capabilitypatterns/project_defined_process_9D8F9D7F.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "1fd11557", parentId: "765ccaa9", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "deploy_process", title: "Deploy the Process", url: "./../../process.openup.base/capabilitypatterns/deploy_process_4E32FC74.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "21697771", parentId: "765ccaa9", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "tailor_process", title: "Tailor the Process", url: "./../../process.openup.base/capabilitypatterns/tailor_process_58D0DC84.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "74150cea", parentId: "", relPath: ",_y7kklJiLEeGOvpP1fVrVNA_-a85MeCEEeC1y_NExchKwQ", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "product_owner", title: "Product Owner", url: "./../../process.openup.base/capabilitypatterns/product_owner_3953D515.html", 
+	predecessors: "", info: "", type: "Descriptor de roles", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d6fce998", parentId: "74150cea", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "develop_product_documentation", title: "Develop Product Documentation", url: "./../../process.openup.base/capabilitypatterns/develop_product_documentation_DA7CBA88.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "72bc7de0", parentId: "", relPath: ",_0Qiv4NOJEdyqlogshP8l4g_0a0o0MlgEdmt3adZL5Dmdw", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "project_manager", title: "Project Manager", url: "./../../process.openup.base/capabilitypatterns/project_manager_DB2AD7DF.html", 
+	predecessors: "", info: "", type: "Descriptor de roles", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "da842b24", parentId: "72bc7de0", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "iteration_plan", title: "Iteration Plan", url: "./../../process.openup.base/capabilitypatterns/iteration_plan_D6339783.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "da7a3f57", parentId: "72bc7de0", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "project_plan", title: "Project Plan", url: "./../../process.openup.base/capabilitypatterns/project_plan_3E9F622E.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "28f4c997", parentId: "72bc7de0", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "risk_list", title: "Risk List", url: "./../../process.openup.base/capabilitypatterns/risk_list_E67A9CDA.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7df31b0a", parentId: "72bc7de0", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "work_items_list", title: "Work Items List", url: "./../../process.openup.base/capabilitypatterns/work_items_list_5B93E712.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "c4a51d6f", parentId: "72bc7de0", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "iteration_plan", title: "Iteration Plan", url: "./../../process.openup.base/capabilitypatterns/iteration_plan_D6339783.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d8b09e36", parentId: "72bc7de0", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "risk_list", title: "Risk List", url: "./../../process.openup.base/capabilitypatterns/risk_list_E67A9CDA.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "77225036", parentId: "72bc7de0", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "work_items_list", title: "Work Items List", url: "./../../process.openup.base/capabilitypatterns/work_items_list_5B93E712.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d05f9fe6", parentId: "72bc7de0", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "assess_results", title: "Assess Results", url: "./../../process.openup.base/capabilitypatterns/assess_results_A8262B77.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "cbf5be1a", parentId: "72bc7de0", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "manage_iteration", title: "Manage Iteration", url: "./../../process.openup.base/capabilitypatterns/manage_iteration_D96F88D6.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "219b1593", parentId: "72bc7de0", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_iteration", title: "Plan Iteration", url: "./../../process.openup.base/capabilitypatterns/plan_iteration_B0421040.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "79b68816", parentId: "", relPath: ",_0Qiv4NOJEdyqlogshP8l4g_dTa6gMAYEdqX-s4mWhkyqQ", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "stakeholder", title: "Stakeholder", url: "./../../process.openup.base/capabilitypatterns/stakeholder_94D01FAF.html", 
+	predecessors: "", info: "", type: "Descriptor de roles", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d6015214", parentId: "79b68816", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "assess_results", title: "Assess Results", url: "./../../process.openup.base/capabilitypatterns/assess_results_A8262B77.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "73b975d5", parentId: "79b68816", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "create_test_cases", title: "Create Test Cases", url: "./../../process.openup.base/capabilitypatterns/create_test_cases_3D5E914E.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7752b8e3", parentId: "79b68816", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "design_solution", title: "Design the Solution", url: "./../../process.openup.base/capabilitypatterns/design_solution_7C602F6D.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "213c0aae", parentId: "79b68816", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "detail_system_wide_requirements", title: "Detail System-Wide Requirements", url: "./../../process.openup.base/capabilitypatterns/detail_system_wide_requirements_B4381DEE.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d2d3e6fc", parentId: "79b68816", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "detail_use_case_scenarios", title: "Detail Use-Case Scenarios", url: "./../../process.openup.base/capabilitypatterns/detail_use_case_scenarios_79A10C4.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d5701b0d", parentId: "79b68816", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "identify_and_outline_requirements", title: "Identify and Outline Requirements", url: "./../../process.openup.base/capabilitypatterns/identify_and_outline_requirements_FF8708A2.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d54890f0", parentId: "79b68816", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "implement_solution", title: "Implement Solution", url: "./../../process.openup.base/capabilitypatterns/implement_solution_B7C117A5.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d6eedc33", parentId: "79b68816", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "implement_tests", title: "Implement Tests", url: "./../../process.openup.base/capabilitypatterns/implement_tests_ECF4B2BA.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "8086179b", parentId: "79b68816", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "manage_iteration", title: "Manage Iteration", url: "./../../process.openup.base/capabilitypatterns/manage_iteration_D96F88D6.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7bb3a5e8", parentId: "79b68816", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_iteration", title: "Plan Iteration", url: "./../../process.openup.base/capabilitypatterns/plan_iteration_B0421040.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d0d3595b", parentId: "", relPath: ",_y7kkkJiLEeGOvpP1fVrVNA_-zf1teB8EeC1y_NExchKwQ", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "technical_writer", title: "Technical Writer", url: "./../../process.openup.base/capabilitypatterns/technical_writer_D091D148.html", 
+	predecessors: "", info: "", type: "Descriptor de roles", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7a0e449d", parentId: "d0d3595b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "product_documentation", title: "Product Documentation", url: "./../../process.openup.base/capabilitypatterns/product_documentation_BEE3178.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "806f2957", parentId: "d0d3595b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "support_documentation", title: "Support Documentation", url: "./../../process.openup.base/capabilitypatterns/support_documentation_922401C8.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d3bc8d05", parentId: "d0d3595b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "user_documentation", title: "User Documentation", url: "./../../process.openup.base/capabilitypatterns/user_documentation_12B73D52.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "757acd87", parentId: "d0d3595b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "product_documentation", title: "Product Documentation", url: "./../../process.openup.base/capabilitypatterns/product_documentation_BEE3178.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d0608f5f", parentId: "d0d3595b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "support_documentation", title: "Support Documentation", url: "./../../process.openup.base/capabilitypatterns/support_documentation_922401C8.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "76775740", parentId: "d0d3595b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "user_documentation", title: "User Documentation", url: "./../../process.openup.base/capabilitypatterns/user_documentation_12B73D52.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "ce61cbfa", parentId: "d0d3595b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "develop_product_documentation", title: "Develop Product Documentation", url: "./../../process.openup.base/capabilitypatterns/develop_product_documentation_DA7CBA88.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "224b6f98", parentId: "d0d3595b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "develop_support_documentation", title: "Develop Support Documentation", url: "./../../process.openup.base/capabilitypatterns/develop_support_documentation_15EAD869.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "80c628a5", parentId: "d0d3595b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "develop_user_documentation", title: "Develop User Documentation", url: "./../../process.openup.base/capabilitypatterns/develop_user_documentation_F21CC8F.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d8daaa6c", parentId: "", relPath: ",_0Qiv4NOJEdyqlogshP8l4g_0ZM4MclgEdmt3adZL5Dmdw", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "tester", title: "Tester", url: "./../../process.openup.base/capabilitypatterns/tester_8D2C9439.html", 
+	predecessors: "", info: "", type: "Descriptor de roles", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "756f3b57", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "test_case", title: "Test Case", url: "./../../process.openup.base/capabilitypatterns/test_case_97A21991.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "cc185ae4", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "test_log", title: "Test Log", url: "./../../process.openup.base/capabilitypatterns/test_log_2FE8B99B.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d7b4123b", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "test_script", title: "Test Script", url: "./../../process.openup.base/capabilitypatterns/test_script_9DE8C749.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "c89fd695", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "test_case", title: "Test Case", url: "./../../process.openup.base/capabilitypatterns/test_case_A587DF28.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d3a11b2a", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "test_log", title: "Test Log", url: "./../../process.openup.base/capabilitypatterns/test_log_655B039E.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "cf4015ec", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "test_script", title: "Test Script", url: "./../../process.openup.base/capabilitypatterns/test_script_D35B114C.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "cacc3e72", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "create_test_cases", title: "Create Test Cases", url: "./../../process.openup.base/capabilitypatterns/create_test_cases_3D5E914E.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "712a2bec", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "implement_tests", title: "Implement Tests", url: "./../../process.openup.base/capabilitypatterns/implement_tests_ECF4B2BA.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "c9cfb6af", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "run_tests", title: "Run Tests", url: "./../../process.openup.base/capabilitypatterns/run_tests_9B0DEC8E.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "1dc5d957", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "assess_results", title: "Assess Results", url: "./../../process.openup.base/capabilitypatterns/assess_results_A8262B77.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "24d8330a", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "design_solution", title: "Design the Solution", url: "./../../process.openup.base/capabilitypatterns/design_solution_7C602F6D.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "22198039", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "detail_system_wide_requirements", title: "Detail System-Wide Requirements", url: "./../../process.openup.base/capabilitypatterns/detail_system_wide_requirements_B4381DEE.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d99deb02", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "detail_use_case_scenarios", title: "Detail Use-Case Scenarios", url: "./../../process.openup.base/capabilitypatterns/detail_use_case_scenarios_79A10C4.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "c8558d30", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "identify_and_outline_requirements", title: "Identify and Outline Requirements", url: "./../../process.openup.base/capabilitypatterns/identify_and_outline_requirements_FF8708A2.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d99299b1", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "implement_developer_tests", title: "Implement Developer Tests", url: "./../../process.openup.base/capabilitypatterns/implement_developer_tests_6442995D.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "ce4611d8", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "implement_solution", title: "Implement Solution", url: "./../../process.openup.base/capabilitypatterns/implement_solution_B7C117A5.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "1fb31ae0", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "manage_iteration", title: "Manage Iteration", url: "./../../process.openup.base/capabilitypatterns/manage_iteration_D96F88D6.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d0142113", parentId: "d8daaa6c", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_iteration", title: "Plan Iteration", url: "./../../process.openup.base/capabilitypatterns/plan_iteration_B0421040.html", 
+	predecessors: "", info: "Actúa como adicional", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "d3a90c4f", parentId: "", relPath: ",_3MJwM5oQEeGnJt_Qpwdfdg_jmrVYb9xEd-AG_DXKKgAXg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "tool_specialist", title: "Tool Specialist", url: "./../../process.openup.base/capabilitypatterns/tool_specialist_18FFA337.html", 
+	predecessors: "", info: "", type: "Descriptor de roles", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "c77ddb9b", parentId: "d3a90c4f", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "tools", title: "Tools", url: "./../../process.openup.base/capabilitypatterns/tools_768DF632.html", 
+	predecessors: "", info: "Responsable de", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "220250be", parentId: "d3a90c4f", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "tools", title: "Tools", url: "./../../process.openup.base/capabilitypatterns/tools_768DF632.html", 
+	predecessors: "", info: "Modifica", type: "Descriptor de artefacto", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "26566e6c", parentId: "d3a90c4f", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "setup_tools", title: "Set Up Tools", url: "./../../process.openup.base/capabilitypatterns/setup_tools_4769F09A.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "7ae71496", parentId: "d3a90c4f", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "verify_tool_config_installation", title: "Verify Tool Configuration and Installation", url: "./../../process.openup.base/capabilitypatterns/verify_tool_config_installation_B043C65F.html", 
+	predecessors: "", info: "Actúa como propietario", type: "Descriptor de tareas", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+]};
+				</script>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script language="JavaScript" type="text/javascript">
+				contentPage.onload();
+			</script>
+</html>

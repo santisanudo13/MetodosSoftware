@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<cheatsheet title="Check out a CVS project">
+
+  <intro 
+      href="/org.eclipse.platform.doc.user/reference/ref-cheatsheets.htm">
+    <description>
+      Tento pohled Cheat Sheet ukazuje, jak prozkoumat úložiště CVS a zapůjčit projekt. Pokud potřebujete v některém kroku pomoc, klepněte na ikonu (?) napravo.
+    </description>
+  </intro>
+
+  <item
+      title="Open the CVS Repository Exploring perspective"
+      href="/org.eclipse.platform.doc.user/tasks/tasks-1h.htm">
+    <description>
+      Z hlavní nabídky vyberte Okno &gt; Otevřít perspektivu &gt; Jiné... a potom vyberte perspektivu <b>Prozkoumání úložiště CVS
+</b> 
+    </description>
+    <command
+        serialization="org.eclipse.ui.perspectives.showPerspective(org.eclipse.ui.perspectives.showPerspective.perspectiveId=org.eclipse.team.cvs.ui.cvsPerspective)"
+        confirm="true" translate="" >
+    </command>
+  </item>
+
+  <item
+      title="Add a CVS repository"
+      href="/org.eclipse.platform.doc.user/tasks/tasks-92.htm">
+    <description>
+      V pohledu Úložiště CVS klepněte na tlačítko panelu nástrojů <b>Přidat úložiště CVS
+</b>
+. Zadejte umístění a ověřovací informace úložiště. Například pro úložiště <b>eclipse</b> zadejte následující:
+<br/>
+      <br/>
+      Hostitel: dev.eclipse.org<br/>
+      Cesta k úložišti: /cvsroot/eclipse<br/>
+      Uživatel: anonymní<br/>
+      Typ připojení: pserver<br/>
+      <br/>
+      Použijte výchozí nastavení pro zbytek a klepněte na tlačítko Dokončit.
+    </description>
+  </item>
+
+  <item
+      title="Locate the project"
+      href="/org.eclipse.platform.doc.user/tasks/tasks-1i.htm">
+    <description>
+      Rozbalte uzel <b>HEAD
+</b> pod nově přidaným úložištěm a vyhledejte projekt, který chcete zapůjčit (např. chcete-li vyhledat zdrojový kód pro pohled Cheat Sheet, najdete jej v org.eclipse.ui.cheatsheets)
+</description>
+  </item>
+
+  <item
+      title="Check out the project"
+      href="/org.eclipse.platform.doc.user/tasks/tasks-96.htm">
+    <description>
+      Klepněte pravým tlačítkem myši na projekt, který chcete zapůjčit a vyberte <b>Zapůjčit</b>. Tím se stáhne nejnovější obsah z úložiště do vašeho pracovního prostoru.
+    </description>
+  </item>
+
+  <item
+      title="View the workspace"
+      href="/org.eclipse.platform.doc.isv/guide/resInt_workspace.htm">
+    <description>
+      Chcete-li vidět projekt ve vašem pracovním prostoru, přepněte pro zobrazení projektu na perspektivu<b>Prostředek</b>
+      prostřednictvím Okno &gt; Otevřít perspektivu &gt; Prostředek v pohledu <b>Navigátor
+</b> . Nyní můžete vidět a pracovat s obsahem projektu.
+    </description>
+  </item>
+
+</cheatsheet>

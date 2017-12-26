@@ -1,0 +1,5 @@
+#Eclipse Product File
+#Sun Nov 20 22:48:53 EST 2016
+version=1.5.0.201611202248
+name=Eclipse Process Framework Composer
+id=org.eclipse.epf.rcp.ui.composer

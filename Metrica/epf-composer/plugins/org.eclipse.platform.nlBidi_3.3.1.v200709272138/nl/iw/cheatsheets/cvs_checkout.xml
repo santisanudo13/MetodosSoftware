@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<cheatsheet title="משיכת פרויקט CVS">
+
+  <intro 
+      href="/org.eclipse.platform.doc.user/reference/ref-cheatsheets.htm">
+    <description>
+      מדריך בזק זה כלל הנחיות להתחברות אל מאגר CVS ומשיכת פרויקט מהמאגר. אם אתם זקוקים לעזרה בשלב כלשהו, לחצו על האיקון (?) משמאל.
+    </description>
+  </intro>
+
+  <item
+      title="פתיחת המבט לסיור במאגר CVS"
+      href="/org.eclipse.platform.doc.user/tasks/tasks-1h.htm">
+    <description>
+      מהתפריט הראשי, בחרו 'חלון &gt; פתיחת מבט &gt; אחר...,
+ובחרו את המבט <b>סיור במאגר CVS</b>.
+    </description>
+    <command
+        serialization="org.eclipse.ui.perspectives.showPerspective(org.eclipse.ui.perspectives.showPerspective.perspectiveId=org.eclipse.team.cvs.ui.cvsPerspective)"
+        confirm="true" translate="" >
+    </command>
+  </item>
+
+  <item
+      title="הוספת מאגר CVS"
+      href="/org.eclipse.platform.doc.user/tasks/tasks-92.htm">
+    <description>
+      בתצוגה 'מאגרי CVS', לחצו על הלחצן
+I<b>הוספת מאגר CVS</b> בסרגל הכלים. ציינו את המיקום ואת פרטי המאגר. לדוגמה,
+עבור המאגר <b>eclipse</b>, ציינו את הפרטים האלה:<br/>
+      <br/>
+      מארח: dev.eclipse.org<br/>
+      נתיב מאגר: ‎/cvsroot/eclipse<br/>
+      משתמש: anonymous<br/>
+      סוג חיבור: pserver<br/>
+      <br/>
+      השתמשו בערכי ברירת המחדל עבור שאר השדות, ולחצו על 'סיום'.
+    </description>
+  </item>
+
+  <item
+      title="איתור הפרויקט"
+      href="/org.eclipse.platform.doc.user/tasks/tasks-1i.htm">
+    <description>
+      הרחיבו את הצומת <b>HEAD</b> תחת המאגר החדש שהוספתם,
+ואתרו את הפרויקט
+שברצונכם למשוך (לדוגמה, כדי לאתר את קוד המקור עבור תצוגת מדריכי הבזק,
+חפשו תחת org.eclipse.ui.cheatsheets)
+    </description>
+  </item>
+
+  <item
+      title="משיכת הפרויקט"
+      href="/org.eclipse.platform.doc.user/tasks/tasks-96.htm">
+    <description>
+      לחצו עם לחצן העכבר הימני על הפרויקט שברצונכם למשוך ובחרו  <b>משיכה</b>. פעולה זו תוריד את התוכן האחרון מהמאגר אל מרחב העבודה.
+    </description>
+  </item>
+
+  <item
+      title="הצגת מרחב העבודה"
+      href="/org.eclipse.platform.doc.isv/guide/resInt_workspace.htm">
+    <description>
+      כדי לראות את הפרויקט במרחב העבודה שלכם, עברו למבט <b>משאבים</b>
+דרך 'חלון &gt; פתיחת מבט &gt; משאבים' כדי לראות את הפרויקט בתצוגה
+<b>נווט</b>. כעת תוכלו לעיין בתוכן הפרויקט ולעבוד אתו.
+    </description>
+  </item>
+
+</cheatsheet>

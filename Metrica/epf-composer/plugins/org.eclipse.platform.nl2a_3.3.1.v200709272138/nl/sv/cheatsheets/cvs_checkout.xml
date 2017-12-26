@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<cheatsheet title="Checka ut ett CVS-projekt">
+
+  <intro 
+      href="/org.eclipse.platform.doc.user/reference/ref-cheatsheets.htm">
+    <description>
+      I den här lathunden får du veta hur du utforskar ett CVS-lager och checkar ut ett projekt. Om du behöver hjälp vid något av stegen klickar du på ikonen (?) till höger. </description>
+  </intro>
+
+  <item
+      title="Öppna CVS-lagerutforskningsperspektivet"
+      href="/org.eclipse.platform.doc.user/tasks/tasks-1h.htm">
+    <description>
+      Välj Fönster &gt; Öppna perspektiv &gt; Övriga på huvudmenyn och välj sedan perspektivet <b>Lagerutforskning i CVS</b>.
+    </description>
+    <command
+        serialization="org.eclipse.ui.perspectives.showPerspective(org.eclipse.ui.perspectives.showPerspective.perspectiveId=org.eclipse.team.cvs.ui.cvsPerspective)"
+        confirm="true" translate="" >
+    </command>
+  </item>
+
+  <item
+      title="Lägg till ett CVS-lager"
+      href="/org.eclipse.platform.doc.user/tasks/tasks-92.htm">
+    <description>
+      I CVS-lagervyn klickar du på ikonen <b>Lägg till CVS-lager</b> i verktygsfältet. Ange plats och autentiseringsinformation för lagret. För t.ex. <b>eclipse</b>-lagret anger du följande:<br/>
+      <br/>
+      Värd: dev.eclipse.org<br/>
+      Lagersökväg: /cvsroot/eclipse<br/>
+      Användare: anonymous<br/>
+      Anslutningstyp: pserver<br/>
+      <br/>
+      Använd standardvärden för resterande inställningar och klicka sedan på Slutför.
+    </description>
+  </item>
+
+  <item
+      title="Leta rätt på projektet"
+      href="/org.eclipse.platform.doc.user/tasks/tasks-1i.htm">
+    <description>
+      Expandera <b>HEAD</b>-noden under lagret som nyligen lagts till och bläddra efter det projekt du vill checka ut (om du t.ex. vill hitta källkoden för lathundvyn finns den i in org.eclipse.ui.cheatsheets)
+    </description>
+  </item>
+
+  <item
+      title="Checka ut projektet"
+      href="/org.eclipse.platform.doc.user/tasks/tasks-96.htm">
+    <description>
+      Högerklicka på det projekt som du vill checka ut och välj <b>Checka ut</b>. Det senaste innehållet från lagret läses då ner till arbetsytan.
+    </description>
+  </item>
+
+  <item
+      title="Visa arbetsytan"
+      href="/org.eclipse.platform.doc.isv/guide/resInt_workspace.htm">
+    <description>
+      Om du vill visa projektet på arbetsytan växlar du till <b>resursperspektivet</b> genom att välja Fönster &gt; Öppna perspektiv &gt; Resurs. Projektet visas då i <b>navigeringsvyn</b>. Du kan nu visa och arbeta med innehållet i projektet.
+    </description>
+  </item>
+
+</cheatsheet>

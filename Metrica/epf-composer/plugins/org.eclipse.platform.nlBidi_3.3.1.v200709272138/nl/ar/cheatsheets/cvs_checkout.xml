@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<cheatsheet title="تخصيص مشروع CVS">
+
+  <intro 
+      href="/org.eclipse.platform.doc.user/reference/ref-cheatsheets.htm">
+    <description>
+      توضح صفحة التعليمات هذه كيفية التعرف على مستودع CVS وتخصيص مشروع. اذا كنت بحاجة الى مساعدة       بأي من الخطوات، اضغط على الشارة (؟) التي توجد باليمين.
+    </description>
+  </intro>
+
+  <item
+      title="فتح الشكل العام لاستعراض مستودع تخزين CVS"
+      href="/org.eclipse.platform.doc.user/tasks/tasks-1h.htm">
+    <description>
+      من القائمة الرئيسية، اختر نافذة &gt; فتح شكل عام &gt; أخرى...، ثم حدد الشكل العام <b>استعراض مستودع CVS</b>.
+    </description>
+    <command
+        serialization="org.eclipse.ui.perspectives.showPerspective(org.eclipse.ui.perspectives.showPerspective.perspectiveId=org.eclipse.team.cvs.ui.cvsPerspective)"
+        confirm="true" translate="" >
+    </command>
+  </item>
+
+  <item
+      title="اضافة مستودع تخزين CVS"
+      href="/org.eclipse.platform.doc.user/tasks/tasks-92.htm">
+    <description>
+      في مشاهدة مستودعات CVS، اضغط على الاختيار <b>اضافة مستودع CVS</b>
+      في خط الأدوات. أدخل معلومات المكان والتوثيق الخاصة بالمستودع. على سبيل المثال، بالنسبة لمستودع <b>eclipse</b>، أدخل ما يلي:<br/>
+      <br/>
+      النظام الرئيسي: dev.eclipse.org<br/>
+      مسار مستودع التخزين: /cvsroot/eclipse<br/>
+      المستخدم: غير محدد<br/>
+      نوع الوصلة: pserver<br/>
+      <br/>
+      استخدام الاختيارات المفترضة للمجالات الأخرى، ثم اضغط انتهاء.
+    </description>
+  </item>
+
+  <item
+      title="ايجاد المشروع"
+      href="/org.eclipse.platform.doc.user/tasks/tasks-1i.htm">
+    <description>
+      قم بعرض العقدة <b>HEAD</b> تحت المستودع الذي تم اضافته، وحدد المشروع الذي تريد تخصيصه       (على سبيل المثال، ايجاد كود المصدر الخاص بمشاهدة صفحة التعليمات، وهذا يوجد في
+       org.eclipse.ui.cheatsheets)
+    </description>
+  </item>
+
+  <item
+      title="تخصيص المشروع"
+      href="/org.eclipse.platform.doc.user/tasks/tasks-96.htm">
+    <description>
+      اضغط بالمفتاح اليمين للفأرة على المشروع الذي تريد تخصيصه ثم حدد <b>تخصيص</b>. سيقوم ذلك       بتحميل أحدث محتويات من المستودع الى مساحة العمل الخاصة بك.
+    </description>
+  </item>
+
+  <item
+      title="مشاهدة مساحة العمل"
+      href="/org.eclipse.platform.doc.isv/guide/resInt_workspace.htm">
+    <description>
+      لرؤية المشروع في مساحة العمل الخاصة بك، قم بالانتقال الى الشكل العام <b>للمصدر</b>
+      من خلال نافذة &gt; فتح شكل عام &gt; مصدر لرؤية المشروع في مشاهدة <b>برنامج التجول</b>. يمكنك الآن مشاهدة والتعامل مع محتويات المشروع.
+    </description>
+  </item>
+
+</cheatsheet>

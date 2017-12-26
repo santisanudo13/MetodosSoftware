@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<cheatsheet title="מיזוג ענפי CVS">
+
+  <intro 
+      href="/org.eclipse.platform.doc.user/reference/ref-cheatsheets.htm">
+    <description>
+      מדריך בזק זה מפרט את הצעדים למיזוג שינויים מענף CVS אחד לתוך ענף אחר, או לתוך HEAD. אם אתם זקוקים עזרה בשלב כלשהו, לחצו על האיקון (?)
+      משמאל.
+    </description>
+  </intro>
+
+  <item
+      href="/org.eclipse.platform.doc.user/tasks/tasks-100b.htm"
+      title="בירור הענף ופרטי הגרסה">
+    <description>
+      הצעד הראשון הוא <b>לבחור</b> את שני הענפים שימוזגו, להחליט באיזו <b>גרסה</b> התוכן הסתעף,
+ומה יהיה ענף <b>היעד</b> (שאליו יוכנסו תוצאות המיזוג).
+      לאחר שיהיה בידכם מידע זה, תוכלו לעבור לשלב הבא.
+    </description>
+  </item>
+
+  <item
+      href="/org.eclipse.platform.doc.user/tasks/tasks-96.htm"
+      title="משיכת הפרויקט">
+    <description>
+      לפני המיזוג, עליכם <b>למשוך</b> את הפרויקט שברצונכם למזג
+ולהביא אותו לתוך מרחב העבודה. לשם כך, תוכלו להשתמש באשף היבוא או להוסיף
+את המאגר שלכם מהמבט 'סיור במאגר CVS'. לחצו על הלחצן
+(?) כדי לקבל עזרה.
+    </description>
+  </item>
+
+  <item
+      href="/org.eclipse.platform.doc.user/tasks/tasks-103.htm"
+      title="טעינת היעד לתוך מרחב העבודה">
+    <description>
+      בנווט, לחצו עם לחצן העכבר הימני על הפרויקט ובחרו 'החלפה עם &gt;
+     ענף אחר או גרסה אחרת'. בחרו את ענף היעד. התוכן האחרון של הענף
+ייטען לתוך מרחב העבודה שלכם.
+    </description>
+  </item>
+
+  <item
+      href="/org.eclipse.platform.doc.user/tasks/tasks-100b.htm"
+      title="פרטי מיזוג">
+    <description>
+      בנווט, לחצו עם לחצן העכבר הימני על הפרויקט ובחרו <b>צוות</b>
+      &gt;
+      <b>מיזוג</b> והשלימו את הצעדים באשף. באשף זה תציינו את פרטי המיזוג.
+    </description>
+  </item>
+
+  <item
+      href="/org.eclipse.platform.doc.user/tasks/tasks-100b.htm"
+      title="עבודה עם עורך המיזוג">
+    <description>
+      בעורך המיזוג, מזגו את השינויים ידנית. צעד זה טוען את השינויים הדרושים אל מרחב העבודה. לאחר שתמזגו את כל השינויים ותהיו
+מרוצים מהתוצאה, עברו לצעד הבא.
+    </description>
+  </item>
+
+  <item
+      href="/org.eclipse.platform.doc.user/tasks/tasks-114.htm"
+      title="קיבוע השינויים">
+    <description>
+      לחצו עם לחצן העכבר הימני על הפרויקט ובחרו  <b>צוות </b> &gt;  <b>סינכרון עם מאגר </b>. לאחר מכן קבעו את כל השינויים במאגר. צעד זה משלים את העברת השינויים
+ממרחב העבודה למאגר CVS, ומשלים את המיזוג.
+    </description>
+  </item>
+
+</cheatsheet>
