@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-a3D-HSLERw4J9aqwv3x8TQ" name="msi_2.1_verificacin_y_estudio_de_la_peticin,_nsZDEO_XEee70KJyt2MUQw" guid="-a3D-HSLERw4J9aqwv3x8TQ" changeDate="2018-01-02T17:20:47.910+0100">
+  <mainDescription>&lt;p>&#xD;
+    Antes de iniciar el estudio de la petición, se verifica que la información registrada es correcta. Para determinar su&#xD;
+    validez:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − Si se trata de un mantenimiento correctivo, se debe reproducir el problema.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − En el caso de un mantenimiento evolutivo, hay que comprobar que la petición es razonable o factible.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Una vez examinada la petición comienza su estudio, que será diferente en función del tipo de mantenimiento establecido:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp; &amp;nbsp;− Si se trata de una petición de mantenimiento correctivo, y según el acuerdo de nivel de servicio&#xD;
+    establecido para los sistemas de información afectados, se evalúa hasta qué punto es crítico el problema.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;Así es posible determinar si la solución es a corto plazo, es decir, urgente o inmediata, o si es a medio o a&#xD;
+    largo plazo:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    &amp;nbsp;&amp;nbsp; − Si el problema es crítico, su análisis y solución comienza inmediatamente con el fin de reanudar&#xD;
+    rápidamente el nivel de servicio. Sin embargo, este modo de actuación no elimina la necesidad de una revisión posterior&#xD;
+    del problema para valorar los posibles efectos secundarios, establecer una solución definitiva y actualizar todos los&#xD;
+    productos implicados.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − Si no es crítico, la petición se clasifica para proceder en la tarea siguiente a determinar cuál es la&#xD;
+    solución más adecuada.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − En el caso de un mantenimiento evolutivo se delimita su alcance determinando si se trata de una&#xD;
+    modificación a los sistemas de información inicialmente afectados o de una incorporación para cubrir nuevas&#xD;
+    funcionalidades no contempladas hasta el momento en dichos sistemas de información.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_sohl4O_XEee70KJyt2MUQw" name="Verificar que la información registrada es correcta" guid="_sohl4O_XEee70KJyt2MUQw"/>
+  <sections xmi:id="_yEFPoO_XEee70KJyt2MUQw" name="Establecer el plazo dado para solucionarse" guid="_yEFPoO_XEee70KJyt2MUQw"/>
+  <purpose>Determinar correctamente si los datos son correctos y estabelcer de forma rapida y sencilla de que tipo de petición se&#xD;
+trata.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

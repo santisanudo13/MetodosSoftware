@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="--NdLwElvAh9nYtWHIo3fxA" name=",_-bVdAO_TEee70KJyt2MUQw" guid="--NdLwElvAh9nYtWHIo3fxA" changeDate="2018-01-02T16:46:50.881+0100">
+  <mainDescription>En esta tarea se determina el tipo de mantenimiento requerido por la petición catalogada, teniendo en cuenta toda la&#xD;
+información que se ha registrado en la tarea anterior. Hay que identificar también los sistemas de información inicialmente&#xD;
+afectados por petición.&amp;nbsp; A continuación, se comprueba que el servicio de mantenimiento, definido en el plan de&#xD;
+mantenimiento para el sistema de información, cubre el tipo de mantenimiento que requiere la petición. Sobre la base de&#xD;
+estos criterios, se acepta o rechaza la petición y se notifica a quién corresponda. Si la petición es aceptada, se&#xD;
+determina de quién es la responsabilidad de atender la solicitud para proceder a su estudio posterior.&amp;nbsp;</mainDescription>
+  <sections xmi:id="_1F0-0O_WEee70KJyt2MUQw" name="Aceptar o rechazar petición" guid="_1F0-0O_WEee70KJyt2MUQw"/>
+  <sections xmi:id="_5AongO_WEee70KJyt2MUQw" name="Notificar de petición a responsable asignado" guid="_5AongO_WEee70KJyt2MUQw"/>
+  <purpose>El objetivo de esta tarea consiste en rechazar o aceptar las peticiones y asignarlas a un responsable.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

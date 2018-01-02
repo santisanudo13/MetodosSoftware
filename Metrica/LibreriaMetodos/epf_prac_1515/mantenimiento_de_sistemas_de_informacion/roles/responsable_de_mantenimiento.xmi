@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-AlXsGBjBhNJOyUX98ulv0g" name="new_role,_U2Q5UO_REee70KJyt2MUQw" guid="-AlXsGBjBhNJOyUX98ulv0g" changeDate="2018-01-02T18:40:14.590+0100">
+  <mainDescription>El responsable de mantenimiento es el encargado de supervisar todas las peticiones y clasificarlas de manera correcta&#xD;
+ademas de estabelcer el análisis de la mismas para poder así tratarlas correctamente.</mainDescription>
+</org.eclipse.epf.uma:RoleDescription>

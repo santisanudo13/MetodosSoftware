@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-RK63Nd9IOiGgN_Elx-LE5A" name="catlogo_de_peticiones1.2,_LK08gO_WEee70KJyt2MUQw" guid="-RK63Nd9IOiGgN_Elx-LE5A" changeDate="2018-01-02T17:31:11.874+0100">
+  <mainDescription>&lt;p>&#xD;
+    Debemos organizar el nuevo catálogo indicando si las peticiones recibidas y documentadas son aceptadas o no siguiendo&#xD;
+    unas premisas establecidas. Para ello hacemos uso de la documentación previamente recogida de manera sencilla y&#xD;
+    ordenada&#xD;
+&lt;/p></mainDescription>
+  <purpose>Determinar si las peticiones son aceptadas o no.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

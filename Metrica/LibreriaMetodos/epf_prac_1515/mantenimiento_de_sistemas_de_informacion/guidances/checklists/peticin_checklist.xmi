@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-_QTWkXaQ8RBfz9PPjz_mbA" name="new_checklist,_YqgDIO_VEee70KJyt2MUQw" guid="-_QTWkXaQ8RBfz9PPjz_mbA" changeDate="2018-01-02T16:56:17.946+0100">
+  <mainDescription>&amp;nbsp;Consiste en recoger la identificación, origen y tipo de petición, asignarle una prioridad inicial e incorporar una&#xD;
+descripción, lo más precisa posible, que facilite su posterior análisis.</mainDescription>
+  <sections xmi:id="_gi7_AO_VEee70KJyt2MUQw" name="Identificación" guid="_gi7_AO_VEee70KJyt2MUQw">
+    <sectionDescription>Indicar el identificador con el que se vaya a asociar la petición, siendo siempre el nombre y primer apellido del&#xD;
+reclamador de la petición junto con el nombre de la peticion en sí.</sectionDescription>
+  </sections>
+  <sections xmi:id="_izcpEO_VEee70KJyt2MUQw" name="Origen" guid="_izcpEO_VEee70KJyt2MUQw">
+    <sectionDescription>Estabelcer como surge la petición y de que departamento y empresa proviene.</sectionDescription>
+  </sections>
+  <sections xmi:id="_jy1pgO_VEee70KJyt2MUQw" name="Tipo de Petición" guid="_jy1pgO_VEee70KJyt2MUQw">
+    <sectionDescription>Se determina que tipo de petición es para así poder realizar una asignacion más eficiente.</sectionDescription>
+  </sections>
+  <sections xmi:id="_lUxWUO_VEee70KJyt2MUQw" name="Prioridad" guid="_lUxWUO_VEee70KJyt2MUQw">
+    <sectionDescription>Consiste en la prioridad que se quiere dar a esta petición.</sectionDescription>
+  </sections>
+  <sections xmi:id="_mDv8MO_VEee70KJyt2MUQw" name="Descripción" guid="_mDv8MO_VEee70KJyt2MUQw">
+    <sectionDescription>Consiste en una descripción detallada del problema a solventar.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

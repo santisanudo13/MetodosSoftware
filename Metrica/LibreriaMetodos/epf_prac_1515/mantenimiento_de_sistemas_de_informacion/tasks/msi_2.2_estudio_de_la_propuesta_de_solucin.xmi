@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ttI4_H9tS58fHZkx7ryylQ" name=",_tRLZ8O_aEee70KJyt2MUQw" guid="-ttI4_H9tS58fHZkx7ryylQ" changeDate="2018-01-02T18:19:57.720+0100">
+  <mainDescription>&lt;p>&#xD;
+    A partir del catálogo de peticiones, y para cada una de ellas, se estima su alcance valorando la prioridad inicialmente&#xD;
+    asignada, de acuerdo a los requisitos planteados. A continuación, se analiza la relación entre peticiones. Se decide&#xD;
+    cuáles pueden abordarse de forma conjunta asignando, si procede, una prioridad global a los grupos identificados y&#xD;
+    determinando en qué secuencia deben implementarse los cambios.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Asimismo, es necesario concretar los requisitos solicitados para cada petición y analizar con más detalle los sistemas&#xD;
+    de información implicados, valorando las características de mantenimiento de los mismos y la cantidad de cambios&#xD;
+    sufridos desde su puesta en producción.&amp;nbsp; También se debe comprobar la existencia de otras peticiones en curso que&#xD;
+    afecten a los mismos sistemas de información, evaluando la repercusión que puede tener la realización de la petición de&#xD;
+    mantenimiento sobre estos cambios o desarrollos y analizar su convivencia. Además, se analiza el impacto que la&#xD;
+    modificación puede provocar en el entorno tecnológico y en los niveles de servicio inicialmente acordados para cada uno&#xD;
+    de los sistemas de información, valorando hasta que punto pueden verse comprometidos.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    En el caso de una petición de mantenimiento evolutivo, se estudia cómo atenderla teniendo en cuenta la política de&#xD;
+    versiones vigente en ese momento. Si se trata de una incorporación o eliminación, se determina la necesidad de llevar a&#xD;
+    cabo algunas actividades del proceso Análisis del Sistema de Información de modo previo a la identificación de los&#xD;
+    elementos afectados. Igualmente, se puede tomar la decisión de abordar el proceso Estudio de Viabilidad del Sistema&#xD;
+    atendiendo a los requisitos a cubrir, al alcance de la modificación, a las implicaciones en el entorno tecnológico, y&#xD;
+    al ciclo de vida estimado para los sistemas de información afectados, así como a la existencia de opciones de mercado&#xD;
+    más idóneas.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    En el caso de peticiones de mantenimiento correctivo que hayan precisado de una solución de emergencia, no se darán por&#xD;
+    cerradas hasta que, o bien se compruebe que con dicha solución el sistema no se ha visto comprometido ni tampoco otros&#xD;
+    sistemas relacionados con él, o bien que después de haber aplicado una solución a corto/medio plazo y realizadas las&#xD;
+    pruebas pertinentes, el sistema conserva su integridad y operatividad. Por tanto, una vez que se ha reanudado el&#xD;
+    servicio, hay que realizar las restantes actividades para detectar el origen del problema y asegurar que los cambios&#xD;
+    introducidos no generan otros de mayor envergadura o comprometen el correcto funcionamiento de otros sistemas de&#xD;
+    información relacionados. En cualquiera de las situaciones anteriores, se hace una estimación preliminar del esfuerzo&#xD;
+    requerido mediante los indicadores establecidos en el acuerdo de nivel de servicio para cada sistema de información,&#xD;
+    según la tecnología aplicada, naturaleza y tamaño del sistema de información y los tipos de lenguajes utilizados, bases&#xD;
+    de datos, etc.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Por último, si se considera necesario, hay que proponer alternativas de solución para dar respuesta de forma&#xD;
+    satisfactoria a los requisitos planteados o problemas detectados, determinando una fecha límite de implantación y un&#xD;
+    coste aproximado en función de la estimación realizada anteriormente. Se elige, junto con el usuario, la solución más&#xD;
+    adecuada, y se obtiene la aprobación o rechazo de la petición. En caso de rechazo, la petición se da por cerrada en el&#xD;
+    catálogo.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_DZTqgO_iEee70KJyt2MUQw" name="Determinar las distintas soluciones posibles" guid="_DZTqgO_iEee70KJyt2MUQw">
+    <sectionDescription>Se deben elaborar el conjunto de posibles soluciones al problema de manera que en todas ellas el problema se solvente&#xD;
+correctamente siguiendo la normativa establecida.</sectionDescription>
+  </sections>
+  <sections xmi:id="_G6pDQO_iEee70KJyt2MUQw" name="Seleccionar junto con el cliente la solución más adecuada" guid="_G6pDQO_iEee70KJyt2MUQw">
+    <sectionDescription>Se debe indicar una solución a realizar para solventar el problema y esta debe ser decidida de forma conjunta con el&#xD;
+cliente.</sectionDescription>
+  </sections>
+  <purpose>Generar una solución a una petición que el cliente considere adecuada al aprobarla.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

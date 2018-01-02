@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-uX5D_-I36X2Pw8S2OzDVPQ" name="new_artifact,_lDJXoO_REee70KJyt2MUQw" guid="-uX5D_-I36X2Pw8S2OzDVPQ" changeDate="2018-01-02T17:24:51.577+0100">
+  <mainDescription>Es un documento que contiene todas las peticiones de manera que esten ordenadas y con toda la información necesaria&#xD;
+facilmente accesible.</mainDescription>
+  <purpose>El objetivo es agrupar todas las peticiones en un mismo documento con toda la información necesaria para cada una de ellas.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

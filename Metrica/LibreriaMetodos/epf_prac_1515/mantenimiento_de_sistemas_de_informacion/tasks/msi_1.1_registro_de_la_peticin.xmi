@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-vd7fg0m7G898vEkl3yCP7Q" name=",_4tgpcO_REee70KJyt2MUQw" guid="-vd7fg0m7G898vEkl3yCP7Q" changeDate="2018-01-02T16:31:37.409+0100">
+  <mainDescription>Esta tarea consiste en elaborar un catálogo para poder mediar con el cliente sobre las posibles peticiones que este realice&#xD;
+sobre el mantenimiento de un sistema de información. Este catálogo servirá de base para abordar, en tareas posteriores, el&#xD;
+análisis de la petición, realizar la modificación solicitada y proporcionar datos estadísticos sobre peticiones recibidas o&#xD;
+atendidas. La información que debe incluir dicho registro se determina de acuerdo a las normas o estándares existentes en&#xD;
+la organización para la recepción de peticiones de mantenimiento. En el caso de un error se debe incluir una completa&#xD;
+descripción de las circunstancias que llevaron al fallo, adjuntando datos de entrada, listados, o cualquier otro material&#xD;
+de soporte que se considere oportuno. Para peticiones de mejora se debe remitir una especificación de los requisitos a&#xD;
+contemplar. En cualquier caso, será imprescindible recoger la identificación, origen y tipo de petición, asignarle una&#xD;
+prioridad inicial e incorporar una descripción, lo más precisa posible, que facilite su posterior análisis.</mainDescription>
+  <sections xmi:id="_tCq2IO_VEee70KJyt2MUQw" name="Rellenar toda la información de la petición cumpliendo el checklist" guid="_tCq2IO_VEee70KJyt2MUQw"/>
+  <purpose>Esta tarea tiene como objetivo registrar las peticiones que los usuarios solicitan con motivo de la detección de un&#xD;
+problema o por la necesidad de una mejora. Se crea un catálogo que constituye un medio para la comunicación entre el&#xD;
+usuario o cliente y el responsable de mantenimiento.</purpose>
+</org.eclipse.epf.uma:TaskDescription>
