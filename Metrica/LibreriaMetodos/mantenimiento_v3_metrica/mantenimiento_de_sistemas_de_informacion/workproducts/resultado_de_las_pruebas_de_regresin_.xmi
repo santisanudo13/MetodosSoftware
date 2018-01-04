@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-DY4HM6w5_r2Vk3JW7CiFfA" name="resultado_de_las_pruebas_de_regresin_,_hp98oPCSEeeeJJnLSF5Xwg" guid="-DY4HM6w5_r2Vk3JW7CiFfA" changeDate="2018-01-03T16:43:09.778+0100">
+  <mainDescription>Es un documento el cual contiene todos los resultados de las pruebas de regresión de manera sencilla y ordenada para que&#xD;
+sea mucho más sencillo poder acceder a dicha información posteriormente.</mainDescription>
+  <purpose>Almacenar los resultados de las pruebas de regresión de manera sencilla y ordenada.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

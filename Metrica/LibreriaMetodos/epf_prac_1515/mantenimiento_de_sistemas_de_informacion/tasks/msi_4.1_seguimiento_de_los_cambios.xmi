@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-6SLvwPEeDtbq49ZZawVZhw" name=",_6THkAPCPEeeeJJnLSF5Xwg" guid="-6SLvwPEeDtbq49ZZawVZhw" changeDate="2018-01-03T15:18:32.412+0100">
+  <mainDescription>&lt;p>&#xD;
+    Se hace el seguimiento del plan de acción de acuerdo a los puntos de control establecidos en la actividad anterior. Se&#xD;
+    realiza el seguimiento de los cambios necesarios en los componentes de cada&amp;nbsp; sistema de información afectado, así&#xD;
+    como en los productos asociados, siguiendo las actividades correspondientes a los procesos de Análisis, Diseño,&#xD;
+    Construcción e Implantación identificadas en la actividad anterior. Asimismo, se lleva a cabo el control de la&#xD;
+    planificación establecida, que abarca los siguientes aspectos:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − Realizar la traza de los cambios que la petición ha provocado a lo largo de los procesos de desarrollo&#xD;
+    implicados.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − Verificar que se han realizado satisfactoriamente las pruebas unitarias, de integración y del sistema&#xD;
+    que se consideraron necesarias para los componentes a modificar.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − Comprobar que sólo se ha modificado lo establecido y, en caso contrario, justificar el motivo.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − Asegurar que se han actualizado los productos correspondientes.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − Llevar el control de los distintos desarrollos existentes en paralelo sobre un mismo componente, con el&#xD;
+    fin de coordinar las modificaciones incluidas en cada uno de ellos, y asegurar que en el paso a producción se implantan&#xD;
+    correctamente.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_KgJW0PCREeeeJJnLSF5Xwg" name="Realizar traza de cambios realizados" guid="_KgJW0PCREeeeJJnLSF5Xwg"/>
+  <sections xmi:id="_LvjwQPCREeeeJJnLSF5Xwg" name="Verificar que las pruebas unitarias, integración y de sistema se cumplen correctamente" guid="_LvjwQPCREeeeJJnLSF5Xwg"/>
+  <sections xmi:id="_Pqn3oPCREeeeJJnLSF5Xwg" name="Comprobar que solo se ha modificado lo planeado" guid="_Pqn3oPCREeeeJJnLSF5Xwg"/>
+  <sections xmi:id="_RfFe4PCREeeeJJnLSF5Xwg" name="Asegurar que se han actualizado los componentes editados" guid="_RfFe4PCREeeeJJnLSF5Xwg"/>
+  <sections xmi:id="_T_EIUPCREeeeJJnLSF5Xwg" name="Mantener un control sobre desarrollos paralelos sobre el mismo componente" guid="_T_EIUPCREeeeJJnLSF5Xwg"/>
+  <purpose>Realizar un seguimiento detallado de todos los cambios siguiendo los puntos de control previamente establecidos.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-f8OVgnSFhWEzywbakpjRbw" name="new_artifact,_b2LxcO_UEee70KJyt2MUQw" guid="-f8OVgnSFhWEzywbakpjRbw" changeDate="2018-01-02T18:45:57.971+0100">
+  <mainDescription>En el documento estan recogidos todos los procedimientos, normas y tutoriales que debemos seguir para garantizar que&#xD;
+cualquier producto que hayamos elaborado, ya sea nuevo o muy antiguo siga garantizando un alto nivel de calidad tanto a&#xD;
+nivel funcional como a nivel operacional.</mainDescription>
+  <purpose>Garantizar que todos los productos poseen un mínimo de calidad.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

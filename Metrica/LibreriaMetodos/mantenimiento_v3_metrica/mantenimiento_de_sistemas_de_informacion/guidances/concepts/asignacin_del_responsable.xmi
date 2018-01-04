@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-lr6H6llGvonI1M_AeomOBA" name="new_concept,_Un5T4O_WEee70KJyt2MUQw" guid="-lr6H6llGvonI1M_AeomOBA" changeDate="2018-01-02T18:48:58.901+0100">
+  <mainDescription>Dependiendo del tipo de problema descrito en la petición, esta será propiamente asignada a alguien capaz de solventarla de&#xD;
+manera que no haya ningun tipo de conflicto.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

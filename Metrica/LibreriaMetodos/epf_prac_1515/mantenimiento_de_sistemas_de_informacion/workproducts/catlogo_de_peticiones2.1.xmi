@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-fimS9VRCt1Lwd5ArpHP8dg" name="catlogo_de_peticiones2.1,_KVeW8O_YEee70KJyt2MUQw" guid="-fimS9VRCt1Lwd5ArpHP8dg" changeDate="2018-01-04T10:29:10.644+0100">
+  <mainDescription>Consiste en añadir un nuevo elemento al catálogo de peticiones asociado a cada petición nueva, de manera que indiquemos si&#xD;
+esta verificada o no, es decir, si se ha formulado correctamente para que así podamos proceder a solventar dicha solución.</mainDescription>
+  <purpose>Añadir al catálogo de peticiones la verificación pertinente a</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-aiwL3_uO6nPeX2nlWd-g9A" name=",_zW01MPBsEeemuqh7UofXnQ" guid="-aiwL3_uO6nPeX2nlWd-g9A" changeDate="2018-01-03T11:16:27.827+0100">
+  <mainDescription>&lt;p>&#xD;
+    En la tarea en cuestión, se&amp;nbsp;realiza un análisis detallado del impacto de la petición, con el fin de conocer el&#xD;
+    alcance real de la modificación en función del número, características y relaciones existentes entre los elementos&#xD;
+    afectados. De esta manera se puede establecer una secuencia y planificación correcta del desarrollo de los cambios,&#xD;
+    valorando los recursos necesarios para llevarlo a cabo.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    En el caso de un mantenimiento evolutivo que implique una incorporación o eliminación, el alcance real de la&#xD;
+    modificación se determina después de realizar el proceso Análisis del Sistema de Información, según se indicó en la&#xD;
+    actividad anterior. Por tanto, a partir del resultado del estudio obtenido en la actividad anterior, se identifica cada&#xD;
+    sistema de información afectado creando argumentos de búsqueda para determinar qué elementos y en qué medida están&#xD;
+    implicados en el proceso de cambio.&amp;nbsp; En este análisis quedarán reflejados, de la forma que se considere más&#xD;
+    conveniente, los elementos de la infraestructura tecnológica (hardware, software de base, comunicaciones, etc.) y los&#xD;
+    elementos asociados a los productos software implicados en cada petición (modelos, pantallas, informes, módulos,&#xD;
+    programas fuentes, programas objetos, JCL´s, archivos de datos, manuales de usuario, manuales de explotación...), así&#xD;
+    como las referencias cruzadas. La asociación de elementos a cada petición, permitirá el control de la gestión del&#xD;
+    cambio sobre un mismo elemento.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_UYoXUPBvEeemuqh7UofXnQ" name="Realizar Análisis de Impacto Detallado" guid="_UYoXUPBvEeemuqh7UofXnQ"/>
+  <sections xmi:id="_ZtgKQPBvEeemuqh7UofXnQ" name="Establecer Planificación Correcta de los Cambios a Realizar" guid="_ZtgKQPBvEeemuqh7UofXnQ"/>
+  <purpose>Identificar todos los elementos que se ven afectados por la solución tomada siguiendo los resultados del análisis&#xD;
+previamente realizado.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-jIFYK2qYpQhiUgiKCJbU-Q" name="new_checklist,_1OlEMPBwEeemuqh7UofXnQ" guid="-jIFYK2qYpQhiUgiKCJbU-Q" changeDate="2018-01-03T11:30:25.224+0100">
+  <mainDescription>&lt;p>&#xD;
+    Se identifican todos los elementos afectados por el plan de acción para obtener el alcance del mismo. Estos elementos&#xD;
+    son:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Estudio de Viabilidad del Sistema, Análisis del Sistema de Información, Diseño del Sistema de Información, Construcción&#xD;
+    del Sistema de Información e Implantación y Aceptación del Sistema&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_7WuuMPBwEeemuqh7UofXnQ" name=" Estudio de Viabilidad del Sistema" guid="_7WuuMPBwEeemuqh7UofXnQ"/>
+  <sections xmi:id="_8ZfLsPBwEeemuqh7UofXnQ" name=" Análisis del Sistema de Información" guid="_8ZfLsPBwEeemuqh7UofXnQ"/>
+  <sections xmi:id="_9A80UPBwEeemuqh7UofXnQ" name="Diseño del Sistema de Información" guid="_9A80UPBwEeemuqh7UofXnQ"/>
+  <sections xmi:id="_9_v-4PBwEeemuqh7UofXnQ" name=" Construcción del Sistema de Información e Implantación " guid="_9_v-4PBwEeemuqh7UofXnQ"/>
+  <sections xmi:id="_-0bkIPBwEeemuqh7UofXnQ" name=" Aceptación del Sistema" guid="_-0bkIPBwEeemuqh7UofXnQ"/>
+</org.eclipse.epf.uma:ContentDescription>

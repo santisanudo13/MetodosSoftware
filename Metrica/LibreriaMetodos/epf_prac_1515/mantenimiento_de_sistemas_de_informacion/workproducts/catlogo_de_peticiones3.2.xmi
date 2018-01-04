@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="--GPCtCQ1UPoB9wAblFOatg" name="catlogo_de_peticiones3.2,_7SUPoPBtEeemuqh7UofXnQ" guid="--GPCtCQ1UPoB9wAblFOatg" changeDate="2018-01-03T11:42:38.033+0100">
+  <mainDescription>Además de toda la información referente a las peticiones de cliente, el responsable de estos, los análisis pertinentes y la&#xD;
+solución planteada, se indican el conjunto de actividades o tareas que deben ser llevadas a cabo de manera que la solución&#xD;
+propuesta sea realizada.</mainDescription>
+  <purpose>Indicar el conjunto de tareas necesarias para llevar a cabo la solución aprobada por el cliente.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

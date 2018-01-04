@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-zYNKQjB4381nVxHRNiG3tA" name="catlogo_de_peticiones4.3,_DWLYkPCTEeeeJJnLSF5Xwg" guid="-zYNKQjB4381nVxHRNiG3tA" changeDate="2018-01-03T16:23:29.486+0100">
+  <mainDescription>Este documento contiene toda la información referente a las peticiones de mantenimiento. En el se recogen desde los&#xD;
+responsables, el motivo de la incidencia, las posibles soluciones a tomar, cuales fueron aprobadas o no, los recursos&#xD;
+empleados para llevarlas a cabo, los planes de regresión y aceptación llevados a cabo hasta la aprobación final de que se&#xD;
+ha solventado correctamente la petición de mantenimiento solicitada.</mainDescription>
+  <purpose>El objetivo de este documento es poder tener monitorizadas todas las peticiones de manera sencilla y ordenada para poder&#xD;
+facilmente anotar cuando se ha finalizado una petición.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

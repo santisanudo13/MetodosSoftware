@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ryIcZU40gSfumPb-8oq7mQ" name="new_artifact,_Nn_b4PBtEeemuqh7UofXnQ" guid="-ryIcZU40gSfumPb-8oq7mQ" changeDate="2018-01-03T11:40:38.995+0100">
+  <mainDescription>El catálogo muestra todas las peticiones aceptadas en las que se puede observar un responsable el cual ha planteado una&#xD;
+solución aprobada por el cliente y debido a esta, hay componentes en el sistema que se ven afectados, los cuales quedan&#xD;
+recogidos asociandose a la petición pertinente.</mainDescription>
+  <purpose>Mostrar la información de todas las peticiones del cliente junto con los componentes que se ven afectados por dichas&#xD;
+peticiones.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

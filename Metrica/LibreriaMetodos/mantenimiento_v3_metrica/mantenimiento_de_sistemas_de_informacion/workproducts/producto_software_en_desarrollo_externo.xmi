@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-YfXG8mQ964zmqc0-OR084A" name="producto_software_en_desarrollo_externo_,_f-t7wPCSEeeeJJnLSF5Xwg" guid="-YfXG8mQ964zmqc0-OR084A" changeDate="2018-01-03T16:41:36.013+0100">
+  <mainDescription>Es un producto software que actualmente se encuentra en desarrollo pero no pertence a la organización.</mainDescription>
+</org.eclipse.epf.uma:ArtifactDescription>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-3j2WDh9G3qOITS-SObHmlw" name="new_artifact,__NrR8PBtEeemuqh7UofXnQ" guid="-3j2WDh9G3qOITS-SObHmlw" changeDate="2018-01-03T11:45:39.409+0100">
+  <mainDescription>Son todas las tareas necesarias para obtener los resultados esperados en la solución recogidas en un unico documento&#xD;
+indicando todos los pasos necesarios.</mainDescription>
+  <purpose>Indicar el conjunto de tareas a realizar para garantizar la solución.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

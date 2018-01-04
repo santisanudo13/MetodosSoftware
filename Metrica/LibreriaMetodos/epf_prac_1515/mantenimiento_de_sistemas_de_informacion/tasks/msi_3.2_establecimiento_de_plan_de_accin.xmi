@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-LFfpTm6CZ8wDegrG22-5Sw" name=",_46huUPBsEeemuqh7UofXnQ" guid="-LFfpTm6CZ8wDegrG22-5Sw" changeDate="2018-01-03T11:31:55.994+0100">
+  <mainDescription>En esta tarea se identifican las actividades y tareas de los procesos de desarrollo Estudio de Viabilidad del Sistema,&#xD;
+Análisis del Sistema de Información, Diseño del Sistema de Información, Construcción del Sistema de Información e&#xD;
+Implantación y Aceptación del Sistema que es preciso realizar, en función de las características, complejidad y alcance de&#xD;
+la petición estudiada, así como del plan de mantenimiento establecido para los sistemas de información implicados. Una vez&#xD;
+delimitado el alcance del plan de acción, se aplican los indicadores establecidos para el conjunto de componentes&#xD;
+afectados, realizando los reajustes que oportunos. Se establece un plan de trabajo en el que se determina el coste&#xD;
+asociado, los plazos estimados para su implementación con las fechas de comienzo y fin, y la composición del equipo de&#xD;
+trabajo inicial necesario, teniendo en cuenta el alcance de la modificación, el nivel de esfuerzo requerido y el plan de&#xD;
+trabajo establecido. Finalmente, se definen puntos de control que permiten hacer un seguimiento del plan de trabajo durante&#xD;
+la implementación de la modificación, determinando con qué frecuencia y en que situaciones se llevará a cabo. Una vez&#xD;
+aprobado el plan de acción y asignados los recursos, se lleva a cabo su inicio.</mainDescription>
+  <sections xmi:id="_WwmpYPBxEeemuqh7UofXnQ" name="Identificar actividades y tareas afectadas en el plan de acción" guid="_WwmpYPBxEeemuqh7UofXnQ"/>
+  <sections xmi:id="_ZjEJ8PBxEeemuqh7UofXnQ" name="Establecer alcance de las modificaciones a realizar" guid="_ZjEJ8PBxEeemuqh7UofXnQ"/>
+  <sections xmi:id="_bnF3MPBxEeemuqh7UofXnQ" name="Definir puntos de control para realizar un seguimiento de los cambios" guid="_bnF3MPBxEeemuqh7UofXnQ"/>
+  <sections xmi:id="_d6cZ4PBxEeemuqh7UofXnQ" name="Aprobar plan de acción y recursos necesarios" guid="_d6cZ4PBxEeemuqh7UofXnQ"/>
+  <sections xmi:id="_fc65QPBxEeemuqh7UofXnQ" name="Comenzar plan de acción" guid="_fc65QPBxEeemuqh7UofXnQ"/>
+  <purpose>Identificar puntos de control para poder monitorizar los cambios a realizar.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

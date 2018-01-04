@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-GW5_LSwrI3_ys3wylQfQ-A" name="new_artifact,_OkJFoPBuEeemuqh7UofXnQ" guid="-GW5_LSwrI3_ys3wylQfQ-A" changeDate="2018-01-03T11:47:49.438+0100">
+  <mainDescription>Es un documento en el cual se recogen un cojunto de casos de uso y pruebas relacionadas de manera que nos permita estar&#xD;
+seguros de que al llevar a cabo la solución planteada y aprobada tan solo hayamos modificado los componentes necesarios&#xD;
+manteniendo así la integridad del producto.</mainDescription>
+  <purpose>&lt;p>&#xD;
+    Asegurarse de que solo han sido afectados por los cambios aquellos componentes que se esperaba una modificación en&#xD;
+    ellos.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

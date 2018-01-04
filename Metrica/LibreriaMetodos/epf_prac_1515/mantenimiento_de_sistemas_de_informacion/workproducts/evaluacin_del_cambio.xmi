@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-887WJeOLv5RujVtftc-n_Q" name="evaluacin_del_cambio,_2ttHEPCQEeeeJJnLSF5Xwg" guid="-887WJeOLv5RujVtftc-n_Q" changeDate="2018-01-03T16:27:55.863+0100">
+  <mainDescription>En este documento se recogen desde la fecha y los responsables de las modificaciones hasta el motivo y los recursos&#xD;
+empleados para ello.</mainDescription>
+  <purpose>Recoger todas las modificaciones realizadas durante el periodo que esta activa la petición.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

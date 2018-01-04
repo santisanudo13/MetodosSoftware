@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-sgUbNJOfed9HRxI7xRa37w" name="Proceso Mantenimiento MÉTRICA V3,_iXlI8fE0EeefMrLphPE_EQ" guid="-sgUbNJOfed9HRxI7xRa37w">
+    <mainDescription>&lt;p>&#xD;
+    En&amp;nbsp; este proceso se realiza el registro de las peticiones de mantenimiento recibidas, con el fin de llevar el&#xD;
+    control de las mismas y de proporcionar, si fuera necesario, datos estadísticos de peticiones recibidas o atendidas en&#xD;
+    un determinado periodo, sistemas que se han visto afectados por los cambios, en qué medida y el tiempo empleado en la&#xD;
+    resolución de dichos cambios. Es recomendable, por lo tanto, llevar un catálogo de peticiones de mantenimiento sobre&#xD;
+    los sistemas de información, en el que se registren una serie de datos que nos permitan disponer de la información&#xD;
+    antes mencionada.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    En el momento en el que se registra la petición, se procede a diagnosticar de qué tipo de mantenimiento se trata.&#xD;
+    Atendiendo a los fines, podemos establecer los siguientes tipos de mantenimiento:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; Correctivo: son aquellos cambios precisos para corregir errores del producto software.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; &amp;nbsp;Evolutivo: son las incorporaciones, modificaciones y eliminaciones necesarias en un producto&#xD;
+    software para cubrir la expansión o cambio en las necesidades del usuario.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; Adaptativo: son las modificaciones que afectan a los entornos en los que el sistema opera, por ejemplo,&#xD;
+    cambios de configuración del hardware, software de base, gestores de base de datos, comunicaciones, etc.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; Perfectivo: son las acciones llevadas a cabo para mejorar la calidad interna de los sistemas en cualquiera&#xD;
+    de sus aspectos: reestructuración del código, definición más clara del sistema y optimización del rendimiento y&#xD;
+    eficiencia.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Estos dos últimos tipos quedan fuera del ámbito de MÉTRICA Versión 3 ya que requieren actividades y perfiles distintos&#xD;
+    de los del proceso de desarrollo. &amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Una vez registrada la petición e identificado el tipo de mantenimiento y su origen, se determina de quién es la&#xD;
+    responsabilidad de atender la petición. En el supuesto de que la petición sea remitida, se registra en el catálogo de&#xD;
+    peticiones de mantenimiento y continua el proceso. La petición puede ser denegada. En este caso, se notifica al usuario&#xD;
+    y acaba el proceso.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Posteriormente, según se trate de un mantenimiento correctivo o evolutivo, se verifica y reproduce el problema, o se&#xD;
+    estudia la viabilidad del cambio propuesto por el usuario. En ambos casos se estudia el alcance de la modificación. Hay&#xD;
+    que analizar las alternativas de solución identificando, según el tipo de mantenimiento de que se trate, cuál es la más&#xD;
+    adecuada. El plazo y urgencia de la solución a la petición se establece de acuerdo con el estudio anterior.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    La definición de la solución incluye el estudio del impacto de la solución propuesta para la petición en los sistemas&#xD;
+    de información afectados. Mediante el análisis de dicho estudio, la persona encargada del Proceso de Mantenimiento&#xD;
+    valora el esfuerzo y coste necesario para la implementación de la modificación.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Las tareas de los procesos de desarrollo que va a ser necesario realizar son determinadas en función de los componentes&#xD;
+    del sistema actual afectados por la modificación. Estas tareas pertenecen a actividades de los procesos Análisis,&#xD;
+    Diseño, Construcción e Implantación. Por último, y antes de la aceptación del usuario, es preciso establecer un plan de&#xD;
+    pruebas de regresión que asegure la integridad del sistema de información afectado.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    La mejor forma de mantener el coste de mantenimiento bajo control es una gestión del Proceso de Mantenimiento efectiva&#xD;
+    y comprometida. Por lo tanto, es necesario registrar de forma disciplinada los cambios realizados en los sistemas de&#xD;
+    información y en su documentación. Esto repercutirá directamente en la mayor calidad de los sistemas resultantes.&#xD;
+&lt;/p></mainDescription>
+    <purpose>El objetivo de este proceso es la obtención de una nueva versión de un sistema de información desarrollado con MÉTRICA&#xD;
+Versión 3 ó Versión 2, a partir de las peticiones de mantenimiento que los usuarios realizan con motivo de un problema&#xD;
+detectado en el sistema, o por la necesidad de una mejora del mismo.</purpose>
+  </org.eclipse.epf.uma:DeliveryProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-K5unMK99ZOj5Y969TQp6BQ" name="msi_1.1_registro_de_la_peticin,_eGAwoPE1EeefMrLphPE_EQ" guid="-K5unMK99ZOj5Y969TQp6BQ">
+    <refinedDescription>Esta tarea consiste en elaborar un catálogo para poder mediar con el cliente sobre las posibles peticiones que este realice&#xD;
+sobre el mantenimiento de un sistema de información. Este catálogo servirá de base para abordar, en tareas posteriores, el&#xD;
+análisis de la petición, realizar la modificación solicitada y proporcionar datos estadísticos sobre peticiones recibidas o&#xD;
+atendidas. La información que debe incluir dicho registro se determina de acuerdo a las normas o estándares existentes en&#xD;
+la organización para la recepción de peticiones de mantenimiento. En el caso de un error se debe incluir una completa&#xD;
+descripción de las circunstancias que llevaron al fallo, adjuntando datos de entrada, listados, o cualquier otro material&#xD;
+de soporte que se considere oportuno. Para peticiones de mejora se debe remitir una especificación de los requisitos a&#xD;
+contemplar. En cualquier caso, será imprescindible recoger la identificación, origen y tipo de petición, asignarle una&#xD;
+prioridad inicial e incorporar una descripción, lo más precisa posible, que facilite su posterior análisis.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-A67KfJleiSq2gYvmzUSiyg" name="msi_1.2_asignacin_de_la_peticin,_eGAwofE1EeefMrLphPE_EQ" guid="-A67KfJleiSq2gYvmzUSiyg">
+    <refinedDescription>En esta tarea se determina el tipo de mantenimiento requerido por la petición catalogada, teniendo en cuenta toda la&#xD;
+información que se ha registrado en la tarea anterior. Hay que identificar también los sistemas de información inicialmente&#xD;
+afectados por petición.&amp;nbsp; A continuación, se comprueba que el servicio de mantenimiento, definido en el plan de&#xD;
+mantenimiento para el sistema de información, cubre el tipo de mantenimiento que requiere la petición. Sobre la base de&#xD;
+estos criterios, se acepta o rechaza la petición y se notifica a quién corresponda. Si la petición es aceptada, se&#xD;
+determina de quién es la responsabilidad de atender la solicitud para proceder a su estudio posterior.&amp;nbsp;</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zUGz8SVrPQfmtGGjo-m5zw" name="responsable_de_mantenimiento,_eGAwovE1EeefMrLphPE_EQ" guid="-zUGz8SVrPQfmtGGjo-m5zw">
+    <refinedDescription>El responsable de mantenimiento es el encargado de supervisar todas las peticiones y clasificarlas de manera correcta&#xD;
+ademas de estabelcer el análisis de la mismas para poder así tratarlas correctamente.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vnmL5h_6DGolo6QyPaUAXg" name="peticin_de_mantenimiento_externo,_eGAwpPE1EeefMrLphPE_EQ" guid="-vnmL5h_6DGolo6QyPaUAXg">
+    <refinedDescription>Es un documento redactado por el cliente con el fin de que sepamos que problema ha surgido de la manera más detallada&#xD;
+posible para que podamos solucionarlo de la forma más eficaz posible.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zSJ191s5hoJHvg-16ofNCg" name="catlogo_de_peticiones1.1,_eGAwpvE1EeefMrLphPE_EQ" guid="-zSJ191s5hoJHvg-16ofNCg">
+    <refinedDescription>Es un documento que contiene todas las peticiones de manera que esten ordenadas y con toda la información necesaria&#xD;
+facilmente accesible.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-sPIcDz161EeikYcs6QwUBA" name="plan_de_mantenimiento_ias_7.2,_eGAwqPE1EeefMrLphPE_EQ" guid="-sPIcDz161EeikYcs6QwUBA">
+    <refinedDescription>En el documento estan recogidos todos los procedimientos, normas y tutoriales que debemos seguir para garantizar que&#xD;
+cualquier producto que hayamos elaborado, ya sea nuevo o muy antiguo siga garantizando un alto nivel de calidad tanto a&#xD;
+nivel funcional como a nivel operacional.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ekrDwhevbWjCJ2QUjnYfRQ" name="catlogo_de_peticiones1.2,_eGAwqvE1EeefMrLphPE_EQ" guid="-ekrDwhevbWjCJ2QUjnYfRQ">
+    <refinedDescription>&lt;p>&#xD;
+    Debemos organizar el nuevo catálogo indicando si las peticiones recibidas y documentadas son aceptadas o no siguiendo&#xD;
+    unas premisas establecidas. Para ello hacemos uso de la documentación previamente recogida de manera sencilla y&#xD;
+    ordenada&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-l-Ynrp6MQIpZOc-E-2lWhw" name="msi_2.1_verificacin_y_estudio_de_la_peticin,_e42i0PE1EeefMrLphPE_EQ" guid="-l-Ynrp6MQIpZOc-E-2lWhw">
+    <refinedDescription>&lt;p>&#xD;
+    Antes de iniciar el estudio de la petición, se verifica que la información registrada es correcta. Para determinar su&#xD;
+    validez:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − Si se trata de un mantenimiento correctivo, se debe reproducir el problema.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − En el caso de un mantenimiento evolutivo, hay que comprobar que la petición es razonable o factible.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Una vez examinada la petición comienza su estudio, que será diferente en función del tipo de mantenimiento establecido:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp; &amp;nbsp;− Si se trata de una petición de mantenimiento correctivo, y según el acuerdo de nivel de servicio&#xD;
+    establecido para los sistemas de información afectados, se evalúa hasta qué punto es crítico el problema.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;Así es posible determinar si la solución es a corto plazo, es decir, urgente o inmediata, o si es a medio o a&#xD;
+    largo plazo:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    &amp;nbsp;&amp;nbsp; − Si el problema es crítico, su análisis y solución comienza inmediatamente con el fin de reanudar&#xD;
+    rápidamente el nivel de servicio. Sin embargo, este modo de actuación no elimina la necesidad de una revisión posterior&#xD;
+    del problema para valorar los posibles efectos secundarios, establecer una solución definitiva y actualizar todos los&#xD;
+    productos implicados.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − Si no es crítico, la petición se clasifica para proceder en la tarea siguiente a determinar cuál es la&#xD;
+    solución más adecuada.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − En el caso de un mantenimiento evolutivo se delimita su alcance determinando si se trata de una&#xD;
+    modificación a los sistemas de información inicialmente afectados o de una incorporación para cubrir nuevas&#xD;
+    funcionalidades no contempladas hasta el momento en dichos sistemas de información.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-N_HXDTWg5cubFlngOBsNpw" name="msi_2.2_estudio_de_la_propuesta_de_solucin,_e42i0fE1EeefMrLphPE_EQ" guid="-N_HXDTWg5cubFlngOBsNpw">
+    <refinedDescription>&lt;p>&#xD;
+    A partir del catálogo de peticiones, y para cada una de ellas, se estima su alcance valorando la prioridad inicialmente&#xD;
+    asignada, de acuerdo a los requisitos planteados. A continuación, se analiza la relación entre peticiones. Se decide&#xD;
+    cuáles pueden abordarse de forma conjunta asignando, si procede, una prioridad global a los grupos identificados y&#xD;
+    determinando en qué secuencia deben implementarse los cambios.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Asimismo, es necesario concretar los requisitos solicitados para cada petición y analizar con más detalle los sistemas&#xD;
+    de información implicados, valorando las características de mantenimiento de los mismos y la cantidad de cambios&#xD;
+    sufridos desde su puesta en producción.&amp;nbsp; También se debe comprobar la existencia de otras peticiones en curso que&#xD;
+    afecten a los mismos sistemas de información, evaluando la repercusión que puede tener la realización de la petición de&#xD;
+    mantenimiento sobre estos cambios o desarrollos y analizar su convivencia. Además, se analiza el impacto que la&#xD;
+    modificación puede provocar en el entorno tecnológico y en los niveles de servicio inicialmente acordados para cada uno&#xD;
+    de los sistemas de información, valorando hasta que punto pueden verse comprometidos.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    En el caso de una petición de mantenimiento evolutivo, se estudia cómo atenderla teniendo en cuenta la política de&#xD;
+    versiones vigente en ese momento. Si se trata de una incorporación o eliminación, se determina la necesidad de llevar a&#xD;
+    cabo algunas actividades del proceso Análisis del Sistema de Información de modo previo a la identificación de los&#xD;
+    elementos afectados. Igualmente, se puede tomar la decisión de abordar el proceso Estudio de Viabilidad del Sistema&#xD;
+    atendiendo a los requisitos a cubrir, al alcance de la modificación, a las implicaciones en el entorno tecnológico, y&#xD;
+    al ciclo de vida estimado para los sistemas de información afectados, así como a la existencia de opciones de mercado&#xD;
+    más idóneas.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    En el caso de peticiones de mantenimiento correctivo que hayan precisado de una solución de emergencia, no se darán por&#xD;
+    cerradas hasta que, o bien se compruebe que con dicha solución el sistema no se ha visto comprometido ni tampoco otros&#xD;
+    sistemas relacionados con él, o bien que después de haber aplicado una solución a corto/medio plazo y realizadas las&#xD;
+    pruebas pertinentes, el sistema conserva su integridad y operatividad. Por tanto, una vez que se ha reanudado el&#xD;
+    servicio, hay que realizar las restantes actividades para detectar el origen del problema y asegurar que los cambios&#xD;
+    introducidos no generan otros de mayor envergadura o comprometen el correcto funcionamiento de otros sistemas de&#xD;
+    información relacionados. En cualquiera de las situaciones anteriores, se hace una estimación preliminar del esfuerzo&#xD;
+    requerido mediante los indicadores establecidos en el acuerdo de nivel de servicio para cada sistema de información,&#xD;
+    según la tecnología aplicada, naturaleza y tamaño del sistema de información y los tipos de lenguajes utilizados, bases&#xD;
+    de datos, etc.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Por último, si se considera necesario, hay que proponer alternativas de solución para dar respuesta de forma&#xD;
+    satisfactoria a los requisitos planteados o problemas detectados, determinando una fecha límite de implantación y un&#xD;
+    coste aproximado en función de la estimación realizada anteriormente. Se elige, junto con el usuario, la solución más&#xD;
+    adecuada, y se obtiene la aprobación o rechazo de la petición. En caso de rechazo, la petición se da por cerrada en el&#xD;
+    catálogo.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qrluBuYJzteA-OjJtTbFtA" name="equipo_de_mantenimiento,_e42i0vE1EeefMrLphPE_EQ" guid="-qrluBuYJzteA-OjJtTbFtA">
+    <refinedDescription>Es un conjunto de trabajadores, siempre mayor que 3 personas, el cual es encargado múltiples tareas a lo largo del proceso&#xD;
+para solventar un problema.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aMp10QPzji_at-R9grcFjA" name="responsable_de_mantenimiento,_e43J4fE1EeefMrLphPE_EQ" guid="-aMp10QPzji_at-R9grcFjA">
+    <refinedDescription>El responsable de mantenimiento es el encargado de supervisar todas las peticiones y clasificarlas de manera correcta&#xD;
+ademas de estabelcer el análisis de la mismas para poder así tratarlas correctamente.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-a8rkBPJKV9uactZ3qK2D2g" name="catlogo_de_peticiones1.2,_e43J4_E1EeefMrLphPE_EQ" guid="-a8rkBPJKV9uactZ3qK2D2g">
+    <refinedDescription>&lt;p>&#xD;
+    Debemos organizar el nuevo catálogo indicando si las peticiones recibidas y documentadas son aceptadas o no siguiendo&#xD;
+    unas premisas establecidas. Para ello hacemos uso de la documentación previamente recogida de manera sencilla y&#xD;
+    ordenada&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wtLOaxuU85-SPy8AcSndFw" name="acuerdo_de_nivel_de_servicioias_8.3,_e43J5fE1EeefMrLphPE_EQ" guid="-wtLOaxuU85-SPy8AcSndFw">
+    <refinedDescription>&lt;p>&#xD;
+    El documento contiene toda la información necesaria del servicio. En esta se incluyen aspectos funcionales,&#xD;
+    requerimientos, observaciones del cliente, etc. Este documento debe estar aprobado por el cliente y por la empresa.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZOrglVPyzTiN74HByiMDkA" name="catlogo_de_peticiones2.1,_e43J5_E1EeefMrLphPE_EQ" guid="-ZOrglVPyzTiN74HByiMDkA">
+    <refinedDescription>Consiste en añadir un nuevo elemento al catálogo de peticiones asociado a cada petición nueva, de manera que indiquemos si&#xD;
+esta verificada o no, es decir, si se ha formulado correctamente para que así podamos proceder a solventar dicha solución.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-M5AWB9gkaLRzm-aWbE-ELw" name="plan_de_mantenimiento_ias_7.2,_e43J6_E1EeefMrLphPE_EQ" guid="-M5AWB9gkaLRzm-aWbE-ELw">
+    <refinedDescription>En el documento estan recogidos todos los procedimientos, normas y tutoriales que debemos seguir para garantizar que&#xD;
+cualquier producto que hayamos elaborado, ya sea nuevo o muy antiguo siga garantizando un alto nivel de calidad tanto a&#xD;
+nivel funcional como a nivel operacional.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TnPzT9UPVLjY1lQH0KrrIQ" name="catlogo_de_peticiones1.1,_e43J7fE1EeefMrLphPE_EQ" guid="-TnPzT9UPVLjY1lQH0KrrIQ">
+    <refinedDescription>Es un documento que contiene todas las peticiones de manera que esten ordenadas y con toda la información necesaria&#xD;
+facilmente accesible.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-YN_zsfZC4H-NU6nnbwHL8w" name="catlogo_de_peticiones2.2,_e43J8fE1EeefMrLphPE_EQ" guid="-YN_zsfZC4H-NU6nnbwHL8w">
+    <refinedDescription>El catálogo posee toda la información recogida hasta ahora asociada por petición de modo que a cada petición se le añade 2&#xD;
+nuevos campos de información. El primero sera el valor del impacto que puede generar sobre el producto dicha petición de&#xD;
+mantenimiento y el segundo es la aceptación o rechazo de la misma petición.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-CpBnhUVBaee2iK2ae8ueDA" name="msi_3.1_identificacin_de_elementos_afectados,_f4L44PE1EeefMrLphPE_EQ" guid="-CpBnhUVBaee2iK2ae8ueDA">
+    <refinedDescription>&lt;p>&#xD;
+    En la tarea en cuestión, se&amp;nbsp;realiza un análisis detallado del impacto de la petición, con el fin de conocer el&#xD;
+    alcance real de la modificación en función del número, características y relaciones existentes entre los elementos&#xD;
+    afectados. De esta manera se puede establecer una secuencia y planificación correcta del desarrollo de los cambios,&#xD;
+    valorando los recursos necesarios para llevarlo a cabo.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    En el caso de un mantenimiento evolutivo que implique una incorporación o eliminación, el alcance real de la&#xD;
+    modificación se determina después de realizar el proceso Análisis del Sistema de Información, según se indicó en la&#xD;
+    actividad anterior. Por tanto, a partir del resultado del estudio obtenido en la actividad anterior, se identifica cada&#xD;
+    sistema de información afectado creando argumentos de búsqueda para determinar qué elementos y en qué medida están&#xD;
+    implicados en el proceso de cambio.&amp;nbsp; En este análisis quedarán reflejados, de la forma que se considere más&#xD;
+    conveniente, los elementos de la infraestructura tecnológica (hardware, software de base, comunicaciones, etc.) y los&#xD;
+    elementos asociados a los productos software implicados en cada petición (modelos, pantallas, informes, módulos,&#xD;
+    programas fuentes, programas objetos, JCL´s, archivos de datos, manuales de usuario, manuales de explotación...), así&#xD;
+    como las referencias cruzadas. La asociación de elementos a cada petición, permitirá el control de la gestión del&#xD;
+    cambio sobre un mismo elemento.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2LopaWHIenHxnXhxnqGkdg" name="msi_3.2_establecimiento_de_plan_de_accin,_f4L44fE1EeefMrLphPE_EQ" guid="-2LopaWHIenHxnXhxnqGkdg">
+    <refinedDescription>En esta tarea se identifican las actividades y tareas de los procesos de desarrollo Estudio de Viabilidad del Sistema,&#xD;
+Análisis del Sistema de Información, Diseño del Sistema de Información, Construcción del Sistema de Información e&#xD;
+Implantación y Aceptación del Sistema que es preciso realizar, en función de las características, complejidad y alcance de&#xD;
+la petición estudiada, así como del plan de mantenimiento establecido para los sistemas de información implicados. Una vez&#xD;
+delimitado el alcance del plan de acción, se aplican los indicadores establecidos para el conjunto de componentes&#xD;
+afectados, realizando los reajustes que oportunos. Se establece un plan de trabajo en el que se determina el coste&#xD;
+asociado, los plazos estimados para su implementación con las fechas de comienzo y fin, y la composición del equipo de&#xD;
+trabajo inicial necesario, teniendo en cuenta el alcance de la modificación, el nivel de esfuerzo requerido y el plan de&#xD;
+trabajo establecido. Finalmente, se definen puntos de control que permiten hacer un seguimiento del plan de trabajo durante&#xD;
+la implementación de la modificación, determinando con qué frecuencia y en que situaciones se llevará a cabo. Una vez&#xD;
+aprobado el plan de acción y asignados los recursos, se lleva a cabo su inicio.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9s86psPAGB0MBaS5V5Ey_A" name="msi_3.3_especificacin_del_plan_de_pruebas_de_regresin,_f4L44vE1EeefMrLphPE_EQ" guid="-9s86psPAGB0MBaS5V5Ey_A">
+    <refinedDescription>Las pruebas de regresión tratan de eliminar el llamado efecto onda, es decir, que los cambios provocados por una petición&#xD;
+no introduzcan un comportamiento no deseado o errores adicionales en otros componentes no modificados. Por tanto, es&#xD;
+necesario comprobar que los cambios que se lleven a cabo en los componentes afectados, no produzcan estos efectos sobre el&#xD;
+mismo u otros componentes.&amp;nbsp; Con este objetivo se deben especificar los casos de prueba en función de las relaciones&#xD;
+existentes entre los distintos componentes identificados en la tarea Identificación de Elementos Afectados (MSI 3.1). De&#xD;
+esta forma, los casos de prueba aseguran que la nueva versión satisface las necesidades planteadas al considerar, a su vez,&#xD;
+los sistemas de información que no han sido modificados pero están directamente relacionados con ellos y, en consecuencia,&#xD;
+pueden verse afectados.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-A2SgCnapDS3RPwbezN0_rg" name="equipo_de_mantenimiento,_f4L44_E1EeefMrLphPE_EQ" guid="-A2SgCnapDS3RPwbezN0_rg">
+    <refinedDescription>Es un conjunto de trabajadores, siempre mayor que 3 personas, el cual es encargado múltiples tareas a lo largo del proceso&#xD;
+para solventar un problema.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JsZ3Q6r0GFuduN4LRawBHQ" name="jefe_de_proyecto,_f4L45fE1EeefMrLphPE_EQ" guid="-JsZ3Q6r0GFuduN4LRawBHQ">
+    <refinedDescription>Es la persona encargada de sacar el máximo partido tanto a los recursos disponibles como a las capacidades de la gente de&#xD;
+manera que obtengan un producto bueno, fiable y de la manera más rápida posible.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZgEVVd951j5l5SyqBK5oSg" name="responsable_de_mantenimiento,_f4L45_E1EeefMrLphPE_EQ" guid="-ZgEVVd951j5l5SyqBK5oSg">
+    <refinedDescription>El responsable de mantenimiento es el encargado de supervisar todas las peticiones y clasificarlas de manera correcta&#xD;
+ademas de estabelcer el análisis de la mismas para poder así tratarlas correctamente.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IQnixqZXiUzC7bsbO2qaCg" name="catlogo_de_peticiones2.2,_f4L46_E1EeefMrLphPE_EQ" guid="-IQnixqZXiUzC7bsbO2qaCg">
+    <refinedDescription>El catálogo posee toda la información recogida hasta ahora asociada por petición de modo que a cada petición se le añade 2&#xD;
+nuevos campos de información. El primero sera el valor del impacto que puede generar sobre el producto dicha petición de&#xD;
+mantenimiento y el segundo es la aceptación o rechazo de la misma petición.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-rhrsYv8GJCY6M3VJNf0jAw" name="catlogo_de_peticiones3.1,_f4L47fE1EeefMrLphPE_EQ" guid="-rhrsYv8GJCY6M3VJNf0jAw">
+    <refinedDescription>El catálogo muestra todas las peticiones aceptadas en las que se puede observar un responsable el cual ha planteado una&#xD;
+solución aprobada por el cliente y debido a esta, hay componentes en el sistema que se ven afectados, los cuales quedan&#xD;
+recogidos asociandose a la petición pertinente.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-l-ZfRxM7r53L3frbpGFu-w" name="anlisis_impacto_de_los_cambios,_f4L47_E1EeefMrLphPE_EQ" guid="-l-ZfRxM7r53L3frbpGFu-w">
+    <refinedDescription>Este documento contiene todos los posibles comportamientos erráticos del sistema generados por los cambios planteados&#xD;
+indicando el impacto de dichos errores de manera ordenada y sencilla.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qPzXI4PAHpJx2a7mj18LbQ" name="plan_de_mantenimiento_ias_7.2,_f4L48fE1EeefMrLphPE_EQ" guid="-qPzXI4PAHpJx2a7mj18LbQ">
+    <refinedDescription>En el documento estan recogidos todos los procedimientos, normas y tutoriales que debemos seguir para garantizar que&#xD;
+cualquier producto que hayamos elaborado, ya sea nuevo o muy antiguo siga garantizando un alto nivel de calidad tanto a&#xD;
+nivel funcional como a nivel operacional.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BsfnFJ4XJkD40uTdNfTydQ" name="catlogo_de_peticiones3.2,_f4L48_E1EeefMrLphPE_EQ" guid="-BsfnFJ4XJkD40uTdNfTydQ">
+    <refinedDescription>Además de toda la información referente a las peticiones de cliente, el responsable de estos, los análisis pertinentes y la&#xD;
+solución planteada, se indican el conjunto de actividades o tareas que deben ser llevadas a cabo de manera que la solución&#xD;
+propuesta sea realizada.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-e2W-BNEQHqJoMyhl_i_EQA" name="plan_de_accin_para_la_modificacin,_f4L49fE1EeefMrLphPE_EQ" guid="-e2W-BNEQHqJoMyhl_i_EQA">
+    <refinedDescription>Son todas las tareas necesarias para obtener los resultados esperados en la solución recogidas en un unico documento&#xD;
+indicando todos los pasos necesarios.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WBDDJ8koeo5hwJxDui8jBg" name="plan_de_pruebas_de_regresin,_f4L49_E1EeefMrLphPE_EQ" guid="-WBDDJ8koeo5hwJxDui8jBg">
+    <refinedDescription>Es un documento en el cual se recogen un cojunto de casos de uso y pruebas relacionadas de manera que nos permita estar&#xD;
+seguros de que al llevar a cabo la solución planteada y aprobada tan solo hayamos modificado los componentes necesarios&#xD;
+manteniendo así la integridad del producto.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dmKsbUrFQZctsTd4xqSEvQ" name="msi_4.1_seguimiento_de_los_cambios,_grgMMPE1EeefMrLphPE_EQ" guid="-dmKsbUrFQZctsTd4xqSEvQ">
+    <refinedDescription>&lt;p>&#xD;
+    Se hace el seguimiento del plan de acción de acuerdo a los puntos de control establecidos en la actividad anterior. Se&#xD;
+    realiza el seguimiento de los cambios necesarios en los componentes de cada&amp;nbsp; sistema de información afectado, así&#xD;
+    como en los productos asociados, siguiendo las actividades correspondientes a los procesos de Análisis, Diseño,&#xD;
+    Construcción e Implantación identificadas en la actividad anterior. Asimismo, se lleva a cabo el control de la&#xD;
+    planificación establecida, que abarca los siguientes aspectos:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − Realizar la traza de los cambios que la petición ha provocado a lo largo de los procesos de desarrollo&#xD;
+    implicados.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − Verificar que se han realizado satisfactoriamente las pruebas unitarias, de integración y del sistema&#xD;
+    que se consideraron necesarias para los componentes a modificar.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − Comprobar que sólo se ha modificado lo establecido y, en caso contrario, justificar el motivo.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − Asegurar que se han actualizado los productos correspondientes.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; − Llevar el control de los distintos desarrollos existentes en paralelo sobre un mismo componente, con el&#xD;
+    fin de coordinar las modificaciones incluidas en cada uno de ellos, y asegurar que en el paso a producción se implantan&#xD;
+    correctamente.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7F8WbzjcLxhO4XB65gORwQ" name="msi_4.2_realizacin_de_las_pruebas_de_regresin,_grgMMfE1EeefMrLphPE_EQ" guid="-7F8WbzjcLxhO4XB65gORwQ">
+    <refinedDescription>Una vez finalizadas las actividades correspondientes al proceso de construcción, se realizan las pruebas de regresión&#xD;
+definidas en la actividad anterior con el objeto de asegurar que ningún sistema de información implicado en el cambio ve&#xD;
+comprometido su funcionamiento normal. En el caso de detectarse problemas, se elabora un informe que recoge las incidencias&#xD;
+y se remite a quién proceda para que tome las medidas correctivas que considere oportunas. Finalmente, una vez que el&#xD;
+comportamiento es correcto, se documenta el resultado&amp;nbsp; global de la evaluación de las pruebas que incluye la&#xD;
+aprobación por parte del responsable de mantenimiento.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-hDi-VOFqkU_lDGGN1d5BMg" name="msi_4.3_aprobacin_y_cierre_de_la_peticin_,_grgMMvE1EeefMrLphPE_EQ" guid="-hDi-VOFqkU_lDGGN1d5BMg">
+    <refinedDescription>Se aprueba formalmente la finalización de la petición de mantenimiento de acuerdo a los resultados obtenidos en la tarea&#xD;
+anterior. Se actualiza el catálogo de peticiones registrando el cierre de la petición tratada. Asimismo, para llevar un&#xD;
+control del coste y al mismo tiempo evaluar la facilidad de mantenimiento, es conveniente registrar datos cuantitativos&#xD;
+relativos al tiempo empleado en el análisis de la petición, en el estudio del impacto, resolución del cambio, recursos&#xD;
+empleados, etc. El registro de este tipo de información proporciona una base cuantitativa sobre la que tomar decisiones&#xD;
+relativas a la eficacia de las técnicas y procedimientos de mantenimiento.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-cDk8ikKMZfTm50dkMOONUw" name="jefe_de_proyecto,_grgMM_E1EeefMrLphPE_EQ" guid="-cDk8ikKMZfTm50dkMOONUw">
+    <refinedDescription>Es la persona encargada de sacar el máximo partido tanto a los recursos disponibles como a las capacidades de la gente de&#xD;
+manera que obtengan un producto bueno, fiable y de la manera más rápida posible.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Bqt8LokIq45znk0Fh6OCgw" name="equipo_de_mantenimiento,_grgMNfE1EeefMrLphPE_EQ" guid="-Bqt8LokIq45znk0Fh6OCgw">
+    <refinedDescription>Es un conjunto de trabajadores, siempre mayor que 3 personas, el cual es encargado múltiples tareas a lo largo del proceso&#xD;
+para solventar un problema.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BTz2NBi4cBceboT3Pb0tbg" name="responsable_de_mantenimiento,_grgMN_E1EeefMrLphPE_EQ" guid="-BTz2NBi4cBceboT3Pb0tbg">
+    <refinedDescription>El responsable de mantenimiento es el encargado de supervisar todas las peticiones y clasificarlas de manera correcta&#xD;
+ademas de estabelcer el análisis de la mismas para poder así tratarlas correctamente.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6Hvc034amHlY2QM4vKiGsw" name="anlisis_impacto_de_los_cambios,_grgzQvE1EeefMrLphPE_EQ" guid="-6Hvc034amHlY2QM4vKiGsw">
+    <refinedDescription>Este documento contiene todos los posibles comportamientos erráticos del sistema generados por los cambios planteados&#xD;
+indicando el impacto de dichos errores de manera ordenada y sencilla.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-J7hFL-hP4C8KGswRxYRODQ" name="plan_de_accin_para_la_modificacin,_grgzRPE1EeefMrLphPE_EQ" guid="-J7hFL-hP4C8KGswRxYRODQ">
+    <refinedDescription>Son todas las tareas necesarias para obtener los resultados esperados en la solución recogidas en un unico documento&#xD;
+indicando todos los pasos necesarios.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-NYY_IuGMV65lSuly2n0BKQ" name="evaluacin_del_cambio,_grgzRvE1EeefMrLphPE_EQ" guid="-NYY_IuGMV65lSuly2n0BKQ">
+    <refinedDescription>En este documento se recogen desde la fecha y los responsables de las modificaciones hasta el motivo y los recursos&#xD;
+empleados para ello.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9GMU3BxJL7SAAFVQdkb0yw" name="plan_de_pruebas_de_regresin,_grgzSPE1EeefMrLphPE_EQ" guid="-9GMU3BxJL7SAAFVQdkb0yw">
+    <refinedDescription>Es un documento en el cual se recogen un cojunto de casos de uso y pruebas relacionadas de manera que nos permita estar&#xD;
+seguros de que al llevar a cabo la solución planteada y aprobada tan solo hayamos modificado los componentes necesarios&#xD;
+manteniendo así la integridad del producto.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-upft_KWXIOji8Buq8Sef6Q" name="producto_software_en_desarrollo_externo,_grgzSvE1EeefMrLphPE_EQ" guid="-upft_KWXIOji8Buq8Sef6Q">
+    <refinedDescription>Es un producto software que actualmente se encuentra en desarrollo pero no pertence a la organización.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-DjO6eGsk8GDy9ujKJ5V4-w" name="resultado_de_las_pruebas_de_regresin_,_grgzTPE1EeefMrLphPE_EQ" guid="-DjO6eGsk8GDy9ujKJ5V4-w">
+    <refinedDescription>Es un documento el cual contiene todos los resultados de las pruebas de regresión de manera sencilla y ordenada para que&#xD;
+sea mucho más sencillo poder acceder a dicha información posteriormente.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-VYhtH4Xqyri1gAMoeip3eQ" name="evaluacin_del_resultado_de_las_pruebas_de_regresin,_grgzTvE1EeefMrLphPE_EQ" guid="-VYhtH4Xqyri1gAMoeip3eQ">
+    <refinedDescription>&lt;p>&#xD;
+    Este documente esta formado por todos los resultados de todas las pruebas de regresión realizadas a una petición de&#xD;
+    mantenimiento, siendo varias veces la realización de estas pruebas en caso de no superarse correctamente, por tanto&#xD;
+    dependiendo de la situación podemos encontrar peticiones de mantenimiento que tan solo poseen 1 resultado, y otras que&#xD;
+    poseen hasta 3 o 4.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-W1hdfFoSQbShO_ppbPM41g" name="catlogo_de_peticiones3.2,_grgzUPE1EeefMrLphPE_EQ" guid="-W1hdfFoSQbShO_ppbPM41g">
+    <refinedDescription>Además de toda la información referente a las peticiones de cliente, el responsable de estos, los análisis pertinentes y la&#xD;
+solución planteada, se indican el conjunto de actividades o tareas que deben ser llevadas a cabo de manera que la solución&#xD;
+propuesta sea realizada.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-K0RWK_J_C9GRtGTp_HmeKQ" name="catlogo_de_peticiones4.3,_grgzUvE1EeefMrLphPE_EQ" guid="-K0RWK_J_C9GRtGTp_HmeKQ">
+    <refinedDescription>Este documento contiene toda la información referente a las peticiones de mantenimiento. En el se recogen desde los&#xD;
+responsables, el motivo de la incidencia, las posibles soluciones a tomar, cuales fueron aprobadas o no, los recursos&#xD;
+empleados para llevarlas a cabo, los planes de regresión y aceptación llevados a cabo hasta la aprobación final de que se&#xD;
+ha solventado correctamente la petición de mantenimiento solicitada.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-086_N6EGnkUbJdYTwjPGHA" name="MSI 1 Registro de la Petición,_uQmlYfE0EeefMrLphPE_EQ" guid="-086_N6EGnkUbJdYTwjPGHA">
+    <mainDescription>Es importante asignar responsabilidades para evitar la realización de cambios que beneficien a un usuario, pero que&#xD;
+produzcan un impacto negativo sobre otros muchos. Por tanto, es necesario que todas las peticiones de mantenimiento sean&#xD;
+presentadas de una forma estandarizada, que permita su clasificación y facilite la identificación del tipo de mantenimiento&#xD;
+requerido. Una vez que la petición ha sido registrada, que ha determinado el tipo de mantenimiento y los sistemas de&#xD;
+información a los que inicialmente puede afectar, se comprueba su viabilidad, de acuerdo a las prestaciones de&#xD;
+mantenimiento establecidas para dichos sistemas de información.</mainDescription>
+    <purpose>El objetivo de esta actividad es establecer un sistema estandarizado de registro de información para las peticiones de&#xD;
+mantenimiento, con el fin de controlar y canalizar los cambios propuestos por un usuario o cliente, mejorando el flujo de&#xD;
+trabajo de la organización y proporcionando una gestión efectiva del mantenimiento.</purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-zzdY4O0nMs6nN64TtXEvmg" name="MSI 2 Análisis de la Petición,_wmgFwfE0EeefMrLphPE_EQ" guid="-zzdY4O0nMs6nN64TtXEvmg">
+    <mainDescription>Se analiza el alcance de la petición en lo referente a los sistemas de información afectados, valorando hasta que punto&#xD;
+pueden ser modificados en función del ciclo de vida estimado para los mismos y determinando la necesidad de desviar la&#xD;
+petición hacia el proceso Estudio de Viabilidad del Sistema (EVS) o Análisis del Sistema de Información (ASI), en función&#xD;
+del impacto sobre los sistemas de información afectados. El enfoque de este estudio varía según el tipo de mantenimiento,&#xD;
+teniendo en cuenta que en el caso de un mantenimiento correctivo que implique un error crítico debe abordarse el cambio de&#xD;
+forma inmediata sin profundizar en el origen del mismo. No obstante, una vez reanudado el servicio, es imprescindible&#xD;
+analizar el problema y determinar cuál es la solución definitiva. &lt;br />&#xD;
+&amp;nbsp;</mainDescription>
+    <purpose>Determinar si es viable o no la petición y establecer la propuesta que la solucione más adecuada.</purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-3wczJpoNc_dUbliNXQNicg" name="MSI 3 Preparación de la Implementación de la Modificación,_0WIZMfE0EeefMrLphPE_EQ" guid="-3wczJpoNc_dUbliNXQNicg">
+    <mainDescription>Una vez finalizado el estudio previo de la petición y aprobada su implementación, se pasa a identificar de forma detallada&#xD;
+cada uno de los elementos afectados por el cambio mediante el análisis de impacto. Este análisis tiene como objetivo&#xD;
+determinar qué parte del sistema de información se ve afectada, y en qué medida, dejando claramente definido y documentado&#xD;
+qué componentes hay que modificar, tanto de software como de hardware. Con el resultado de este análisis se dispone de los&#xD;
+datos cuantitativos sobre los que aplicar los indicadores establecidos. Esto permitirá fijar un plan de acción, valorando&#xD;
+la necesidad de realizar un reajuste de dichos indicadores, con el fin de cumplir el plazo máximo de entrega. Una vez&#xD;
+aceptado el plan de acción, se activan los correspondientes procesos de desarrollo para llevar a cabo la implementación de&#xD;
+la solución. Al mismo tiempo, se especifican las pruebas de regresión con el fin de evitar el efecto onda en el sistema,&#xD;
+una vez realizados los cambios.</mainDescription>
+    <purpose>&lt;p>&#xD;
+    El objetivo es establecer un plan de acción válido respaldado por pruebas de regresión y basado en el análisis de&#xD;
+    impacto.&#xD;
+&lt;/p></purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-CZ__VfCus8KB7qNl9SGYQA" name="MSI 4 Seguimiento y Evaluación de los cambios hasta la Aplicación,_6l5uIPE0EeefMrLphPE_EQ" guid="-CZ__VfCus8KB7qNl9SGYQA">
+    <mainDescription>&lt;p>&#xD;
+    Se realiza el seguimiento de los cambios que se están llevando a cabo en los procesos de desarrollo, de acuerdo a los&#xD;
+    puntos de control del ciclo de vida del cambio establecidos en el plan de acción. Durante este seguimiento, se&#xD;
+    comprueba que sólo se han modificado los elementos que se ven afectados por el cambio y que se han realizado las&#xD;
+    pruebas correspondientes, especialmente las pruebas de integración y del sistema. Del resultado obtenido se hace una&#xD;
+    evaluación del cambio para la posterior aprobación. Una vez finalizado el cambio en desarrollo, se realizan las pruebas&#xD;
+    de regresión que especificadas en la actividad anterior, comprobando que ningún sistema no modificado, pero con&#xD;
+    posibilidades de verse afectado, ha variado su comportamiento habitual. Se informa si ha habido incidencias con el fin&#xD;
+    de que se resuelvan del modo más conveniente. Se evalúan las pruebas.&amp;nbsp; La aprobación de la petición se realiza al&#xD;
+    finalizar las pruebas de regresión, y después de comprobar que todo lo que ha sido modificado o puede verse afectado&#xD;
+    por el cambio, funciona correctamente.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Con el cierre de la petición se podrán incluir en el catálogo, si se considera oportuno, parte de la información&#xD;
+    obtenida durante el proceso de mantenimiento que pueda facilitar posteriores análisis.&#xD;
+&lt;/p></mainDescription>
+    <purpose>Realizar un seguimiento y evaluación de los cambios realizados al producto así como dar por finalizada la petición de&#xD;
+mantenimiento de forma satisfactoria.</purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+</xmi:XMI>

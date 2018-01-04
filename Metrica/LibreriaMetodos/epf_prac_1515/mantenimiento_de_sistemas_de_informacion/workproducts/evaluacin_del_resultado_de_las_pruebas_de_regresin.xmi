@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-PhZE6MZTJ2tqLpNYBm00PQ" name="evaluacin_del_resultado_de_las_pruebas_de_regresin,_iwopwPCSEeeeJJnLSF5Xwg" guid="-PhZE6MZTJ2tqLpNYBm00PQ" changeDate="2018-01-03T16:29:40.197+0100">
+  <mainDescription>&lt;p>&#xD;
+    Este documente esta formado por todos los resultados de todas las pruebas de regresión realizadas a una petición de&#xD;
+    mantenimiento, siendo varias veces la realización de estas pruebas en caso de no superarse correctamente, por tanto&#xD;
+    dependiendo de la situación podemos encontrar peticiones de mantenimiento que tan solo poseen 1 resultado, y otras que&#xD;
+    poseen hasta 3 o 4.&#xD;
+&lt;/p></mainDescription>
+  <purpose>&lt;p>&#xD;
+    Tener registrados los resultados de las pruebas que confirman que el resto de componentes o productos que no han sido&#xD;
+    alterados en la peticíón pero que si dependen del componente modificado permanecen funcionando correctamente.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

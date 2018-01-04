@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-rR99aBJkfxM9RiXGtowtXw" name="new_artifact,_BxIXUO_YEee70KJyt2MUQw" guid="-rR99aBJkfxM9RiXGtowtXw" changeDate="2018-01-02T18:33:14.902+0100">
+  <mainDescription>&lt;p>&#xD;
+    El documento contiene toda la información necesaria del servicio. En esta se incluyen aspectos funcionales,&#xD;
+    requerimientos, observaciones del cliente, etc. Este documento debe estar aprobado por el cliente y por la empresa.&#xD;
+&lt;/p></mainDescription>
+  <purpose>Obtener un documento aprobado tanto por el cliente como por la empresa en el que se detallen todos los aspectos de la&#xD;
+aplicación a seguir.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

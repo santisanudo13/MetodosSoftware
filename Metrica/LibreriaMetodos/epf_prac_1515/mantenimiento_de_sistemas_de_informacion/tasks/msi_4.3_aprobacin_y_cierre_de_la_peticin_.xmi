@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-hiCFw9uW5_mEdd3h2T_Vzg" name=",_ALZmAPCQEeeeJJnLSF5Xwg" guid="-hiCFw9uW5_mEdd3h2T_Vzg" changeDate="2018-01-03T15:36:43.589+0100">
+  <mainDescription>Se aprueba formalmente la finalización de la petición de mantenimiento de acuerdo a los resultados obtenidos en la tarea&#xD;
+anterior. Se actualiza el catálogo de peticiones registrando el cierre de la petición tratada. Asimismo, para llevar un&#xD;
+control del coste y al mismo tiempo evaluar la facilidad de mantenimiento, es conveniente registrar datos cuantitativos&#xD;
+relativos al tiempo empleado en el análisis de la petición, en el estudio del impacto, resolución del cambio, recursos&#xD;
+empleados, etc. El registro de este tipo de información proporciona una base cuantitativa sobre la que tomar decisiones&#xD;
+relativas a la eficacia de las técnicas y procedimientos de mantenimiento.</mainDescription>
+  <sections xmi:id="_HnB_MPCSEeeeJJnLSF5Xwg" name="Aprobación formal de la petición de mantenimiento" guid="_HnB_MPCSEeeeJJnLSF5Xwg"/>
+  <sections xmi:id="_JoVIkPCSEeeeJJnLSF5Xwg" name="Actualización del catalogo de peticiones " guid="_JoVIkPCSEeeeJJnLSF5Xwg"/>
+  <sections xmi:id="_MpyHYPCSEeeeJJnLSF5Xwg" name="Registrar datos informativos respecto a la tarea de mantenimiento(tiempo, cantidad de personal, recursos empleados)" guid="_MpyHYPCSEeeeJJnLSF5Xwg"/>
+  <purpose>Aprobar formalmente la petición de mantenimiento y recolectar información que facilite peticiones relacionadas o similares.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

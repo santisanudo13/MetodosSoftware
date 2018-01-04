@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-_sWgwuOWw9QAt36uzXtj-Q" name=",_85OYgPBsEeemuqh7UofXnQ" guid="-_sWgwuOWw9QAt36uzXtj-Q" changeDate="2018-01-03T11:35:50.695+0100">
+  <mainDescription>Las pruebas de regresión tratan de eliminar el llamado efecto onda, es decir, que los cambios provocados por una petición&#xD;
+no introduzcan un comportamiento no deseado o errores adicionales en otros componentes no modificados. Por tanto, es&#xD;
+necesario comprobar que los cambios que se lleven a cabo en los componentes afectados, no produzcan estos efectos sobre el&#xD;
+mismo u otros componentes.&amp;nbsp; Con este objetivo se deben especificar los casos de prueba en función de las relaciones&#xD;
+existentes entre los distintos componentes identificados en la tarea Identificación de Elementos Afectados (MSI 3.1). De&#xD;
+esta forma, los casos de prueba aseguran que la nueva versión satisface las necesidades planteadas al considerar, a su vez,&#xD;
+los sistemas de información que no han sido modificados pero están directamente relacionados con ellos y, en consecuencia,&#xD;
+pueden verse afectados.</mainDescription>
+  <sections xmi:id="_6JIdMPBxEeemuqh7UofXnQ" name="Comprobar que los cambios realizados no producen efectos adicionales" guid="_6JIdMPBxEeemuqh7UofXnQ"/>
+  <sections xmi:id="_82dmIPBxEeemuqh7UofXnQ" name="Especificar casos de prueba" guid="_82dmIPBxEeemuqh7UofXnQ"/>
+  <sections xmi:id="__VsosPBxEeemuqh7UofXnQ" name="Comprobar que se cumplen dichos casos de prueba" guid="__VsosPBxEeemuqh7UofXnQ"/>
+  <purpose>Eliminar posibles efectos que provocan acciones no deseadas tras las modificaciones del plan de acción.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-chMtCZOLfXIOaa0Ac_GfoA" name="new_artifact,_tYnNwO_REee70KJyt2MUQw" guid="-chMtCZOLfXIOaa0Ac_GfoA" changeDate="2018-01-02T18:43:56.653+0100">
+  <mainDescription>Es un documento redactado por el cliente con el fin de que sepamos que problema ha surgido de la manera más detallada&#xD;
+posible para que podamos solucionarlo de la forma más eficaz posible.</mainDescription>
+  <purpose>Solucionar un problema surgido al cliente.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-qco3x5Oi_Ya_Mfn-ztkTsg" name=",_9inl4PCPEeeeJJnLSF5Xwg" guid="-qco3x5Oi_Ya_Mfn-ztkTsg" changeDate="2018-01-03T15:22:56.464+0100">
+  <mainDescription>Una vez finalizadas las actividades correspondientes al proceso de construcción, se realizan las pruebas de regresión&#xD;
+definidas en la actividad anterior con el objeto de asegurar que ningún sistema de información implicado en el cambio ve&#xD;
+comprometido su funcionamiento normal. En el caso de detectarse problemas, se elabora un informe que recoge las incidencias&#xD;
+y se remite a quién proceda para que tome las medidas correctivas que considere oportunas. Finalmente, una vez que el&#xD;
+comportamiento es correcto, se documenta el resultado&amp;nbsp; global de la evaluación de las pruebas que incluye la&#xD;
+aprobación por parte del responsable de mantenimiento.</mainDescription>
+  <sections xmi:id="_oICowPCREeeeJJnLSF5Xwg" name="Detectar comportamientos erráticos en los sistemas de información" guid="_oICowPCREeeeJJnLSF5Xwg"/>
+  <sections xmi:id="_q55FUPCREeeeJJnLSF5Xwg" name="Realizar informe del comportamiento errático en caso de detectarse" guid="_q55FUPCREeeeJJnLSF5Xwg"/>
+  <sections xmi:id="_txlrMPCREeeeJJnLSF5Xwg" name="Solucionar dicho comportamiento" guid="_txlrMPCREeeeJJnLSF5Xwg"/>
+  <sections xmi:id="_uxRmkPCREeeeJJnLSF5Xwg" name="Comprobar que la solución garantiza un correcto funcionamiento" guid="_uxRmkPCREeeeJJnLSF5Xwg"/>
+  <purpose>Garantizar el correcto funcionamiento de todos los sistemas de información que hayan podido ser afectados con dicho cambio.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

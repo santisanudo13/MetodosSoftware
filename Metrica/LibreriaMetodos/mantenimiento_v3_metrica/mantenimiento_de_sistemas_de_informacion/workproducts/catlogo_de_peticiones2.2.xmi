@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-y0O8RXnx2hM9YHl2lEA3Dg" name="catlogo_de_peticiones2.2,_vzawYO_eEee70KJyt2MUQw" guid="-y0O8RXnx2hM9YHl2lEA3Dg" changeDate="2018-01-04T10:31:55.673+0100">
+  <mainDescription>El catálogo posee toda la información recogida hasta ahora asociada por petición de modo que a cada petición se le añade 2&#xD;
+nuevos campos de información. El primero sera el valor del impacto que puede generar sobre el producto dicha petición de&#xD;
+mantenimiento y el segundo es la aceptación o rechazo de la misma petición.</mainDescription>
+  <purpose>Indicar el impacto de la petición estudiada y si esta es rechazada o aceptada.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

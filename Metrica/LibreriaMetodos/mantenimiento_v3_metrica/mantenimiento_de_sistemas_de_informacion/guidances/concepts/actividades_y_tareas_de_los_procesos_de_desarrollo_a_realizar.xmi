@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Y_PMRbtZUaYLTJkJRtklxw" name="new_concept,_cXybsPBuEeemuqh7UofXnQ" guid="-Y_PMRbtZUaYLTJkJRtklxw" changeDate="2018-01-03T11:50:37.919+0100">
+  <mainDescription>Son el conjunto de tareas necesarias para poder llevar a cabo la solución de manera que estas están recogidas en el&#xD;
+catálogo de peticiones siendo asociadas a la petición del cliente.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>
